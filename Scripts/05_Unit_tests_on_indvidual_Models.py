@@ -98,12 +98,17 @@ def write_log_file(results, log_output_path):
         
         for file_path, errors in results:
             log_file.write(f"## File: {file_path}\n")
+            
             if errors:
-                log_file.write(f"**Errors Found:**\n")
+                log_file.write(f"<span style='color: yellow;'>**Errors Found:**</span>\n")
                 for error in errors:
-                    log_file.write(f"- {error}\n")
+                    if "**Unit mismatch**" in error or "**Invalid unit**" in error:
+                        log_file.write(f"- <span style='color: red;'>{error}</span>\n")
+                    else:
+                        log_file.write(f"- <span style='color: yellow;'>{error}</span>\n")
             else:
-                log_file.write(f"No errors found.\n")
+                log_file.write(f"<span style='color: green;'>No errors found.</span>\n")
+            
             log_file.write("\n")
     
     print(f"Log file written to {log_output_path}")
