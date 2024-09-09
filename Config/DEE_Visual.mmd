@@ -1,0 +1,32 @@
+C4Context
+    title Digital Engineering Tools Connected to ISTARI Control Plane
+
+    %% AWS EKS Boundary for ISTARI Control Plane
+    Boundary(eksBoundary, "AWS EKS") {
+        System(ISTARI, "ISTARI Control Plane", "Central control for managing all tools", $tags="gray")
+    }
+
+    %% AWS VM Boundary for CATIA
+    Boundary(catBoundary, "AWS VM 1") {
+        System(CATIA, "CATIA V5", "CAD Tool\nTool_Type: CAD\nTool_Vendor: Dassault\nTool_Version: V5-6R2023\nTool_License_Type: Node Locked\nLicense Server: Local License Server\nCompute_Type: VM (AWS)\nOperating_System: Windows 10\nSecurity_Level: IL4, Uncontrolled\nLicense_Territory: US\nLicense_Industry: All")
+    }
+
+    %% AWS VM Boundary for CAMEO
+    Boundary(cameoBoundary, "AWS VM 2") {
+        System(CAMEO, "Cameo Enterprise Architect", "Architecture Tool\nTool_Type: Architecture\nTool_Vendor: Dassault\nTool_Version: 2022xR2\nTool_License_Type: Floating\nLicense Server: Centralized (AWS)\nCompute_Type: VM (AWS)\nOperating_System: Windows 10\nSecurity_Level: IL4, Uncontrolled\nLicense_Territory: US_Canada\nLicense_Industry: All")
+    }
+
+    %% AWS VM Boundary for EXCEL and WORD
+    Boundary(wordExcelBoundary, "AWS VM 3") {
+        System(EXCEL, "Excel", "Productivity Tool\nTool_Type: Productivity\nTool_Vendor: Microsoft\nTool_Version: 2019\nTool_License_Type: Node Locked\nLicense Server: Local License Server\nCompute_Type: VM (AWS)\nOperating_System: Windows 10\nSecurity_Level: IL4, Uncontrolled\nLicense_Territory: US\nLicense_Industry: All")
+        System(WORD, "Word", "Productivity Tool\nTool_Type: Productivity\nTool_Vendor: Microsoft\nTool_Version: 2021\nTool_License_Type: Node Locked\nLicense Server: Local License Server\nCompute_Type: VM (AWS)\nOperating_System: Windows 10\nSecurity_Level: IL4, Uncontrolled\nLicense_Territory: US\nLicense_Industry: All")
+    }
+
+    %% Relationships (all tools connected to the central ISTARI control plane)
+    Rel(CATIA, ISTARI, "Connected to ISTARI for control and management")
+    Rel(CAMEO, ISTARI, "Connected to ISTARI for control and management")
+    Rel(EXCEL, ISTARI, "Connected to ISTARI for control and management")
+    Rel(WORD, ISTARI, "Connected to ISTARI for control and management")
+
+    %% Define the style for ISTARI as gray
+    UpdateElementStyle(ISTARI, $bgColor="gray")

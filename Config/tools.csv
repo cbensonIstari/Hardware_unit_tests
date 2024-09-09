@@ -1,0 +1,5 @@
+Tool_Name,Tool_Type,Tool_Vendor,Tool_Version,Tool_License_Type,License Server,Compute_Type,Operating_System,Security_Level,License_Territory,License_Industry
+Cameo Enterprise Architect,Architecture,Dassault,2022xR2,Floating,Centralized (AWS),VM (AWS),Windows 10,"IL4, Uncontrolled",US_Canada,All
+Catia V5,CAD,Dassault,V5-6R2023,Node Locked,Local License Server,VM (AWS),Windows 10,"IL4, Uncontrolled",US,All
+Excel,Productivity,Microsoft,2019,Node Locked,Local License Server,VM (AWS),Windows 10,"IL4, Uncontrolled",US,All
+Word,Productivity,Microsoft,2021,Node Locked,Local License Server,VM (AWS),Windows 10,"IL4, Uncontrolled",US,All
