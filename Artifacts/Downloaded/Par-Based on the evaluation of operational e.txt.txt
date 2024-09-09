@@ -1,0 +1,1 @@
+Based on the evaluation of operational effectiveness, cost, risk, and technical maturity, the recommended Class III UAS for the DoD is Alternative C: Eagle Eye 3000. Although it has a mid-range payload and endurance, it offers a balanced capability set, strong countermeasures, and the lowest technical risk with a high level of technical maturity.

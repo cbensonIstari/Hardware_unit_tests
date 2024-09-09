@@ -1,0 +1,1 @@
+Risk analysis considers technical, operational, and programmatic risks, including technology maturity, integration challenges, and potential for obsolescence.

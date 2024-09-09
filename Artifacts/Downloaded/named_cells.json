@@ -1,0 +1,98 @@
+[
+  {
+    "name": "April",
+    "sheet_name": "flights",
+    "range": "D7",
+    "value": "400",
+    "comment": "",
+    "full_name": "flights!D7"
+  },
+  {
+    "name": "Aug",
+    "sheet_name": "flights",
+    "range": "D11",
+    "value": "800",
+    "comment": "",
+    "full_name": "flights!D11"
+  },
+  {
+    "name": "Dec",
+    "sheet_name": "flights",
+    "range": "D15",
+    "value": "1200",
+    "comment": "",
+    "full_name": "flights!D15"
+  },
+  {
+    "name": "Feb",
+    "sheet_name": "flights",
+    "range": "D5",
+    "value": "200",
+    "comment": "",
+    "full_name": "flights!D5"
+  },
+  {
+    "name": "Jan",
+    "sheet_name": "flights",
+    "range": "D4",
+    "value": "100",
+    "comment": "",
+    "full_name": "flights!D4"
+  },
+  {
+    "name": "July",
+    "sheet_name": "flights",
+    "range": "D10",
+    "value": "700",
+    "comment": "",
+    "full_name": "flights!D10"
+  },
+  {
+    "name": "Jun",
+    "sheet_name": "flights",
+    "range": "D9",
+    "value": "600",
+    "comment": "",
+    "full_name": "flights!D9"
+  },
+  {
+    "name": "March",
+    "sheet_name": "flights",
+    "range": "D6",
+    "value": "300",
+    "comment": "",
+    "full_name": "flights!D6"
+  },
+  {
+    "name": "May",
+    "sheet_name": "flights",
+    "range": "D8",
+    "value": "500",
+    "comment": "",
+    "full_name": "flights!D8"
+  },
+  {
+    "name": "Nov",
+    "sheet_name": "flights",
+    "range": "D14",
+    "value": "1100",
+    "comment": "",
+    "full_name": "flights!D14"
+  },
+  {
+    "name": "Oct",
+    "sheet_name": "flights",
+    "range": "D13",
+    "value": "1000",
+    "comment": "",
+    "full_name": "flights!D13"
+  },
+  {
+    "name": "Sep",
+    "sheet_name": "flights",
+    "range": "D12",
+    "value": "900",
+    "comment": "",
+    "full_name": "flights!D12"
+  }
+]

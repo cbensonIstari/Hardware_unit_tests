@@ -1,0 +1,1837 @@
+[ {
+  "comments" : [ "The Aircraft System includes all the components of the UAV that enable flight and mission operations. It includes the engines, control systems, navigation systems, communication systems, and other subsystems required for the flight and mission objectives." ],
+  "documentation" : "The Aircraft System includes all the components of the UAV that enable flight and mission operations. It includes the engines, control systems, navigation systems, communication systems, and other subsystems required for the flight and mission objectives.",
+  "id" : "_2022x_2_5f80206_1692125315863_172556_18096",
+  "name" : "Block IstariONE",
+  "qualified_name" : "1 Problem Domain::1 Black Box::2 System Context::1 Users & Other Systems::IstariONE",
+  "type" : "Block",
+  "owned_attributes" : {
+    "avionics System" : "",
+    "fuselage" : "",
+    "pTargetAssitance" : "",
+    "06-SuccessfulDescentsConstraint" : "",
+    "03-SuccessfulIngressConstraint" : "",
+    "01-SuccessfulTakeoffConstraint" : "",
+    "07-SuccessfulLandingConstraint" : "",
+    "Cruising Altitude" : "",
+    "Maximum Payload" : "",
+    "empenage" : "",
+    "04-SuccessfulTargetDropsConstraint" : "",
+    "pGCS" : "",
+    "propulsion System" : "",
+    "02-SuccessfulClimbsConstraint" : "",
+    "wing" : "",
+    "05-SuccessfulEgressConstraint" : "",
+    "Max Speed" : ""
+  },
+  "parts" : [ {
+    "comments" : [ ],
+    "documentation" : "",
+    "id" : "_2022x_2_5f80206_1692125933534_392472_18369",
+    "name" : "Value Property Maximum Payload",
+    "qualified_name" : "1 Problem Domain::1 Black Box::2 System Context::1 Users & Other Systems::IstariONE::Maximum Payload",
+    "type" : "Value Property"
+  }, {
+    "comments" : [ ],
+    "documentation" : "",
+    "id" : "_2022x_2_5f80206_1692125984238_431615_18371",
+    "name" : "Value Property Cruising Altitude",
+    "qualified_name" : "1 Problem Domain::1 Black Box::2 System Context::1 Users & Other Systems::IstariONE::Cruising Altitude",
+    "type" : "Value Property"
+  }, {
+    "comments" : [ ],
+    "documentation" : "",
+    "id" : "_2022x_2_5f80206_1692126015940_910096_18373",
+    "name" : "Value Property Max Speed",
+    "qualified_name" : "1 Problem Domain::1 Black Box::2 System Context::1 Users & Other Systems::IstariONE::Max Speed",
+    "type" : "Value Property"
+  }, {
+    "comments" : [ ],
+    "documentation" : "",
+    "id" : "_2022x_2_5f80206_1692127726856_419172_18836",
+    "name" : "Part Property propulsion System",
+    "qualified_name" : "1 Problem Domain::1 Black Box::2 System Context::1 Users & Other Systems::IstariONE::propulsion System",
+    "type" : "Part Property"
+  }, {
+    "comments" : [ ],
+    "documentation" : "",
+    "id" : "_2022x_2_5f80206_1692127730221_984614_18852",
+    "name" : "Part Property avionics System",
+    "qualified_name" : "1 Problem Domain::1 Black Box::2 System Context::1 Users & Other Systems::IstariONE::avionics System",
+    "type" : "Part Property"
+  }, {
+    "comments" : [ ],
+    "documentation" : "",
+    "id" : "_2022x_2_5f80206_1692127732684_970445_18868",
+    "name" : "Part Property fuselage",
+    "qualified_name" : "1 Problem Domain::1 Black Box::2 System Context::1 Users & Other Systems::IstariONE::fuselage",
+    "type" : "Part Property"
+  }, {
+    "comments" : [ ],
+    "documentation" : "",
+    "id" : "_2022x_2_5f80206_1692127735703_229688_18884",
+    "name" : "Part Property wing",
+    "qualified_name" : "1 Problem Domain::1 Black Box::2 System Context::1 Users & Other Systems::IstariONE::wing",
+    "type" : "Part Property"
+  }, {
+    "comments" : [ ],
+    "documentation" : "",
+    "id" : "_2022x_2_5f80206_1692127738976_968526_18900",
+    "name" : "Part Property empenage",
+    "qualified_name" : "1 Problem Domain::1 Black Box::2 System Context::1 Users & Other Systems::IstariONE::empenage",
+    "type" : "Part Property"
+  }, {
+    "comments" : [ ],
+    "documentation" : "",
+    "id" : "_2022x_2_5f80206_1693939538642_299503_17951",
+    "name" : "Constraint Property 02-SuccessfulClimbsConstraint",
+    "qualified_name" : "1 Problem Domain::1 Black Box::2 System Context::1 Users & Other Systems::IstariONE::02-SuccessfulClimbsConstraint",
+    "type" : "Constraint Property"
+  }, {
+    "comments" : [ ],
+    "documentation" : "",
+    "id" : "_2022x_2_5f80206_1693939834259_589368_18057",
+    "name" : "Constraint Property 04-SuccessfulTargetDropsConstraint",
+    "qualified_name" : "1 Problem Domain::1 Black Box::2 System Context::1 Users & Other Systems::IstariONE::04-SuccessfulTargetDropsConstraint",
+    "type" : "Constraint Property"
+  }, {
+    "comments" : [ ],
+    "documentation" : "",
+    "id" : "_2022x_2_5f80206_1693939836787_169788_18074",
+    "name" : "Constraint Property 06-SuccessfulDescentsConstraint",
+    "qualified_name" : "1 Problem Domain::1 Black Box::2 System Context::1 Users & Other Systems::IstariONE::06-SuccessfulDescentsConstraint",
+    "type" : "Constraint Property"
+  }, {
+    "comments" : [ ],
+    "documentation" : "",
+    "id" : "_2022x_2_5f80206_1693939839498_678520_18091",
+    "name" : "Constraint Property 01-SuccessfulTakeoffConstraint",
+    "qualified_name" : "1 Problem Domain::1 Black Box::2 System Context::1 Users & Other Systems::IstariONE::01-SuccessfulTakeoffConstraint",
+    "type" : "Constraint Property"
+  }, {
+    "comments" : [ ],
+    "documentation" : "",
+    "id" : "_2022x_2_5f80206_1693939842266_613740_18108",
+    "name" : "Constraint Property 03-SuccessfulIngressConstraint",
+    "qualified_name" : "1 Problem Domain::1 Black Box::2 System Context::1 Users & Other Systems::IstariONE::03-SuccessfulIngressConstraint",
+    "type" : "Constraint Property"
+  }, {
+    "comments" : [ ],
+    "documentation" : "",
+    "id" : "_2022x_2_5f80206_1693939845311_909251_18125",
+    "name" : "Constraint Property 05-SuccessfulEgressConstraint",
+    "qualified_name" : "1 Problem Domain::1 Black Box::2 System Context::1 Users & Other Systems::IstariONE::05-SuccessfulEgressConstraint",
+    "type" : "Constraint Property"
+  }, {
+    "comments" : [ ],
+    "documentation" : "",
+    "id" : "_2022x_2_5f80206_1693939848335_705780_18142",
+    "name" : "Constraint Property 07-SuccessfulLandingConstraint",
+    "qualified_name" : "1 Problem Domain::1 Black Box::2 System Context::1 Users & Other Systems::IstariONE::07-SuccessfulLandingConstraint",
+    "type" : "Constraint Property"
+  }, {
+    "comments" : [ ],
+    "documentation" : "",
+    "id" : "_2022x_2_5f80206_1693941432139_63770_19463",
+    "name" : "Proxy Port pGCS",
+    "qualified_name" : "1 Problem Domain::1 Black Box::2 System Context::1 Users & Other Systems::IstariONE::pGCS",
+    "type" : "Proxy Port"
+  }, {
+    "comments" : [ ],
+    "documentation" : "",
+    "id" : "_2022x_2_5f80206_1693941487028_225977_19521",
+    "name" : "Proxy Port pTargetAssitance",
+    "qualified_name" : "1 Problem Domain::1 Black Box::2 System Context::1 Users & Other Systems::IstariONE::pTargetAssitance",
+    "type" : "Proxy Port"
+  } ],
+  "use_cases" : [ ]
+}, {
+  "comments" : [ "This system collects real-time meteorological data, including wind speed and direction, temperature, pressure, and precipitation. It assists in ensuring safe and efficient operation conditions for the UAV." ],
+  "documentation" : "This system collects real-time meteorological data, including wind speed and direction, temperature, pressure, and precipitation. It assists in ensuring safe and efficient operation conditions for the UAV.",
+  "id" : "_2022x_2_5f80206_1692823602364_542120_18173",
+  "name" : "Block Weather Monitoring System",
+  "qualified_name" : "1 Problem Domain::1 Black Box::2 System Context::1 Users & Other Systems::Weather Monitoring System",
+  "type" : "Block",
+  "owned_attributes" : {
+    "pGCS" : ""
+  },
+  "parts" : [ {
+    "comments" : [ ],
+    "documentation" : "",
+    "id" : "_2022x_2_5f80206_1693941410970_144666_19443",
+    "name" : "Proxy Port pGCS",
+    "qualified_name" : "1 Problem Domain::1 Black Box::2 System Context::1 Users & Other Systems::Weather Monitoring System::pGCS",
+    "type" : "Proxy Port"
+  } ],
+  "use_cases" : [ ]
+}, {
+  "comments" : [ "Target Assistance is an entity (could be an individual, a group, or a semi-automated system) located at the drop zone. It is responsible for providing real-time guidance and confirmation during the supply drop operation." ],
+  "documentation" : "Target Assistance is an entity (could be an individual, a group, or a semi-automated system) located at the drop zone. It is responsible for providing real-time guidance and confirmation during the supply drop operation.",
+  "id" : "_2022x_2_5f80206_1692823611169_189879_18204",
+  "name" : "Block Target Assitance",
+  "qualified_name" : "1 Problem Domain::1 Black Box::2 System Context::1 Users & Other Systems::Target Assitance",
+  "type" : "Block",
+  "owned_attributes" : {
+    "pIstariOne" : "",
+    "pGCS-TargetAssitance" : ""
+  },
+  "parts" : [ {
+    "comments" : [ ],
+    "documentation" : "",
+    "id" : "_2022x_2_5f80206_1693941471077_383070_19503",
+    "name" : "Proxy Port pIstariOne",
+    "qualified_name" : "1 Problem Domain::1 Black Box::2 System Context::1 Users & Other Systems::Target Assitance::pIstariOne",
+    "type" : "Proxy Port"
+  }, {
+    "comments" : [ ],
+    "documentation" : "",
+    "id" : "_2022x_2_5f80206_1693942553911_511316_20634",
+    "name" : "Proxy Port pGCS-TargetAssitance",
+    "qualified_name" : "1 Problem Domain::1 Black Box::2 System Context::1 Users & Other Systems::Target Assitance::pGCS-TargetAssitance",
+    "type" : "Proxy Port"
+  } ],
+  "use_cases" : [ ]
+}, {
+  "comments" : [ "Ground Control Station (GCS): The GCS is a land-based command and control unit used for communication with the UAV. It includes equipment for controlling the UAV's navigation and other operations, as well as monitoring its status and receiving data." ],
+  "documentation" : "Ground Control Station (GCS): The GCS is a land-based command and control unit used for communication with the UAV. It includes equipment for controlling the UAV's navigation and other operations, as well as monitoring its status and receiving data.",
+  "id" : "_2022x_2_5f80206_1692823581900_405303_18142",
+  "name" : "Block Ground Control Station",
+  "qualified_name" : "1 Problem Domain::1 Black Box::2 System Context::1 Users & Other Systems::Ground Control Station",
+  "type" : "Block",
+  "owned_attributes" : {
+    "pOperator" : "",
+    "pTargetAssistance" : "",
+    "pFlyerOne" : "",
+    "pWMS" : ""
+  },
+  "parts" : [ {
+    "comments" : [ ],
+    "documentation" : "",
+    "id" : "_2022x_2_5f80206_1693941380761_607379_19424",
+    "name" : "Proxy Port pFlyerOne",
+    "qualified_name" : "1 Problem Domain::1 Black Box::2 System Context::1 Users & Other Systems::Ground Control Station::pFlyerOne",
+    "type" : "Proxy Port"
+  }, {
+    "comments" : [ ],
+    "documentation" : "",
+    "id" : "_2022x_2_5f80206_1693941722186_345171_19611",
+    "name" : "Proxy Port pWMS",
+    "qualified_name" : "1 Problem Domain::1 Black Box::2 System Context::1 Users & Other Systems::Ground Control Station::pWMS",
+    "type" : "Proxy Port"
+  }, {
+    "comments" : [ ],
+    "documentation" : "",
+    "id" : "_2022x_2_5f80206_1693941754232_616902_19648",
+    "name" : "Proxy Port pOperator",
+    "qualified_name" : "1 Problem Domain::1 Black Box::2 System Context::1 Users & Other Systems::Ground Control Station::pOperator",
+    "type" : "Proxy Port"
+  }, {
+    "comments" : [ ],
+    "documentation" : "",
+    "id" : "_2022x_2_5f80206_1693943061378_20729_21033",
+    "name" : "Proxy Port pTargetAssistance",
+    "qualified_name" : "1 Problem Domain::1 Black Box::2 System Context::1 Users & Other Systems::Ground Control Station::pTargetAssistance",
+    "type" : "Proxy Port"
+  } ],
+  "use_cases" : [ ]
+}, {
+  "comments" : [ "The Operator is a trained and certified individual responsible for controlling and managing the UAV's operations from the Ground Control Station. The Operator initiates mission procedures, monitors UAV performance, and responds to any emergent conditions during the flight." ],
+  "documentation" : "The Operator is a trained and certified individual responsible for controlling and managing the UAV's operations from the Ground Control Station. The Operator initiates mission procedures, monitors UAV performance, and responds to any emergent conditions during the flight.",
+  "id" : "_2022x_2_5f80206_1692823703596_927456_18388",
+  "name" : "Block Operator",
+  "qualified_name" : "1 Problem Domain::1 Black Box::2 System Context::1 Users & Other Systems::Operator",
+  "type" : "Block",
+  "owned_attributes" : {
+    "pGCS" : ""
+  },
+  "parts" : [ {
+    "comments" : [ ],
+    "documentation" : "",
+    "id" : "_2022x_2_5f80206_1693941450636_313209_19483",
+    "name" : "Proxy Port pGCS",
+    "qualified_name" : "1 Problem Domain::1 Black Box::2 System Context::1 Users & Other Systems::Operator::pGCS",
+    "type" : "Proxy Port"
+  } ],
+  "use_cases" : [ ]
+}, {
+  "comments" : [ ],
+  "documentation" : "",
+  "id" : "_2022x_2_5f80206_1692125614307_176737_18221",
+  "name" : "Block Resupply Logistics Mission Context",
+  "qualified_name" : "1 Problem Domain::1 Black Box::2 System Context::Resupply Logistics Mission Context",
+  "type" : "Block",
+  "owned_attributes" : {
+    "weather Station" : "",
+    "IstariONE" : "",
+    "targetAssistance" : "",
+    "operator" : "",
+    "ground Control Station" : ""
+  },
+  "parts" : [ {
+    "comments" : [ ],
+    "documentation" : "",
+    "id" : "_2022x_2_5f80206_1692125711817_312211_18291",
+    "name" : "Part Property IstariONE",
+    "qualified_name" : "1 Problem Domain::1 Black Box::2 System Context::Resupply Logistics Mission Context::IstariONE",
+    "type" : "Part Property"
+  }, {
+    "comments" : [ ],
+    "documentation" : "",
+    "id" : "_2022x_2_5f80206_1692823631030_189765_18238",
+    "name" : "Part Property ground Control Station",
+    "qualified_name" : "1 Problem Domain::1 Black Box::2 System Context::Resupply Logistics Mission Context::ground Control Station",
+    "type" : "Part Property"
+  }, {
+    "comments" : [ ],
+    "documentation" : "",
+    "id" : "_2022x_2_5f80206_1692823646725_132765_18295",
+    "name" : "Part Property targetAssistance",
+    "qualified_name" : "1 Problem Domain::1 Black Box::2 System Context::Resupply Logistics Mission Context::targetAssistance",
+    "type" : "Part Property"
+  }, {
+    "comments" : [ ],
+    "documentation" : "",
+    "id" : "_2022x_2_5f80206_1692823657869_206253_18310",
+    "name" : "Part Property weather Station",
+    "qualified_name" : "1 Problem Domain::1 Black Box::2 System Context::Resupply Logistics Mission Context::weather Station",
+    "type" : "Part Property"
+  }, {
+    "comments" : [ ],
+    "documentation" : "",
+    "id" : "_2022x_2_5f80206_1692823716417_9697_18422",
+    "name" : "Part Property operator",
+    "qualified_name" : "1 Problem Domain::1 Black Box::2 System Context::Resupply Logistics Mission Context::operator",
+    "type" : "Part Property"
+  } ],
+  "use_cases" : [ ]
+}, {
+  "comments" : [ ],
+  "documentation" : "",
+  "id" : "_2022x_2_5f80206_1692127563076_74313_18585",
+  "name" : "Block Propulsion System",
+  "qualified_name" : "1 Problem Domain::2 White Box::2 Conceptual Subsystems Communication::2 Conceptual Subsystems::Propulsion System",
+  "type" : "Block",
+  "owned_attributes" : { },
+  "parts" : [ ],
+  "use_cases" : [ ]
+}, {
+  "comments" : [ ],
+  "documentation" : "",
+  "id" : "_2022x_2_5f80206_1692127583159_297043_18616",
+  "name" : "Block Avionics System",
+  "qualified_name" : "1 Problem Domain::2 White Box::2 Conceptual Subsystems Communication::2 Conceptual Subsystems::Avionics System",
+  "type" : "Block",
+  "owned_attributes" : {
+    "navigation System" : "",
+    "control System" : "",
+    "communication System" : ""
+  },
+  "parts" : [ {
+    "comments" : [ ],
+    "documentation" : "",
+    "id" : "_2022x_2_5f80206_1692127741394_858892_18916",
+    "name" : "Part Property navigation System",
+    "qualified_name" : "1 Problem Domain::2 White Box::2 Conceptual Subsystems Communication::2 Conceptual Subsystems::Avionics System::navigation System",
+    "type" : "Part Property"
+  }, {
+    "comments" : [ ],
+    "documentation" : "",
+    "id" : "_2022x_2_5f80206_1692127744015_524755_18931",
+    "name" : "Part Property communication System",
+    "qualified_name" : "1 Problem Domain::2 White Box::2 Conceptual Subsystems Communication::2 Conceptual Subsystems::Avionics System::communication System",
+    "type" : "Part Property"
+  }, {
+    "comments" : [ ],
+    "documentation" : "",
+    "id" : "_2022x_2_5f80206_1692127747452_353763_18946",
+    "name" : "Part Property control System",
+    "qualified_name" : "1 Problem Domain::2 White Box::2 Conceptual Subsystems Communication::2 Conceptual Subsystems::Avionics System::control System",
+    "type" : "Part Property"
+  } ],
+  "use_cases" : [ ]
+}, {
+  "comments" : [ ],
+  "documentation" : "",
+  "id" : "_2022x_2_5f80206_1692127613984_569076_18647",
+  "name" : "Block Navigation System",
+  "qualified_name" : "1 Problem Domain::2 White Box::2 Conceptual Subsystems Communication::2 Conceptual Subsystems::Navigation System",
+  "type" : "Block",
+  "owned_attributes" : { },
+  "parts" : [ ],
+  "use_cases" : [ ]
+}, {
+  "comments" : [ ],
+  "documentation" : "",
+  "id" : "_2022x_2_5f80206_1692127623987_860420_18678",
+  "name" : "Block Communication System",
+  "qualified_name" : "1 Problem Domain::2 White Box::2 Conceptual Subsystems Communication::2 Conceptual Subsystems::Communication System",
+  "type" : "Block",
+  "owned_attributes" : { },
+  "parts" : [ ],
+  "use_cases" : [ ]
+}, {
+  "comments" : [ ],
+  "documentation" : "",
+  "id" : "_2022x_2_5f80206_1692127655917_206636_18709",
+  "name" : "Block Wing",
+  "qualified_name" : "1 Problem Domain::2 White Box::2 Conceptual Subsystems Communication::2 Conceptual Subsystems::Wing",
+  "type" : "Block",
+  "owned_attributes" : { },
+  "parts" : [ ],
+  "use_cases" : [ ]
+}, {
+  "comments" : [ ],
+  "documentation" : "",
+  "id" : "_2022x_2_5f80206_1692127666355_394013_18740",
+  "name" : "Block Fuselage",
+  "qualified_name" : "1 Problem Domain::2 White Box::2 Conceptual Subsystems Communication::2 Conceptual Subsystems::Fuselage",
+  "type" : "Block",
+  "owned_attributes" : { },
+  "parts" : [ ],
+  "use_cases" : [ ]
+}, {
+  "comments" : [ ],
+  "documentation" : "",
+  "id" : "_2022x_2_5f80206_1692127686551_110425_18771",
+  "name" : "Block Empenage",
+  "qualified_name" : "1 Problem Domain::2 White Box::2 Conceptual Subsystems Communication::2 Conceptual Subsystems::Empenage",
+  "type" : "Block",
+  "owned_attributes" : { },
+  "parts" : [ ],
+  "use_cases" : [ ]
+}, {
+  "comments" : [ ],
+  "documentation" : "",
+  "id" : "_2022x_2_5f80206_1692127700651_862844_18802",
+  "name" : "Block Control System",
+  "qualified_name" : "1 Problem Domain::2 White Box::2 Conceptual Subsystems Communication::2 Conceptual Subsystems::Control System",
+  "type" : "Block",
+  "owned_attributes" : { },
+  "parts" : [ ],
+  "use_cases" : [ ]
+}, {
+  "comments" : [ ],
+  "documentation" : "",
+  "id" : "_2022x_2_8300238_1704479364770_953525_17749",
+  "name" : "Block Wings",
+  "qualified_name" : "2.1 Wings Subsystem 1 Solution Domain::2 Subsystem Structure::Wings",
+  "type" : "Block",
+  "owned_attributes" : {
+    "Right_Wing" : "",
+    "material" : "",
+    "Left_Aileron" : "50.0",
+    "Right_Aileron" : "50.0",
+    "Left_Wing" : "",
+    "right Wing" : "",
+    "left Wing" : "",
+    "Wingspan" : "2500.0",
+    "Airfoil" : "NACA 2412",
+    "Dihedral_angle" : "1.146"
+  },
+  "parts" : [ {
+    "comments" : [ ],
+    "documentation" : "",
+    "id" : "_2022x_2_8300238_1704479364814_838382_17816",
+    "name" : "Value Property Wingspan",
+    "qualified_name" : "2.1 Wings Subsystem 1 Solution Domain::2 Subsystem Structure::Wings::Wingspan",
+    "type" : "Value Property"
+  }, {
+    "comments" : [ ],
+    "documentation" : "",
+    "id" : "_2022x_2_8300238_1704479364814_872728_17817",
+    "name" : "Value Property Dihedral_angle",
+    "qualified_name" : "2.1 Wings Subsystem 1 Solution Domain::2 Subsystem Structure::Wings::Dihedral_angle",
+    "type" : "Value Property"
+  }, {
+    "comments" : [ ],
+    "documentation" : "",
+    "id" : "_2022x_2_8300238_1704479364815_589523_17818",
+    "name" : "Value Property Airfoil",
+    "qualified_name" : "2.1 Wings Subsystem 1 Solution Domain::2 Subsystem Structure::Wings::Airfoil",
+    "type" : "Value Property"
+  }, {
+    "comments" : [ ],
+    "documentation" : "",
+    "id" : "_2022x_2_8300238_1704479364815_109746_17819",
+    "name" : "Value Property",
+    "qualified_name" : "2.1 Wings Subsystem 1 Solution Domain::2 Subsystem Structure::Wings::",
+    "type" : "Value Property"
+  }, {
+    "comments" : [ ],
+    "documentation" : "",
+    "id" : "_2022x_2_8300238_1704479364815_930897_17820",
+    "name" : "Part Property material",
+    "qualified_name" : "2.1 Wings Subsystem 1 Solution Domain::2 Subsystem Structure::Wings::material",
+    "type" : "Part Property"
+  }, {
+    "comments" : [ ],
+    "documentation" : "",
+    "id" : "_2022x_2_8300238_1704479364816_557499_17821",
+    "name" : "Part Property Left_Wing",
+    "qualified_name" : "2.1 Wings Subsystem 1 Solution Domain::2 Subsystem Structure::Wings::Left_Wing",
+    "type" : "Part Property"
+  }, {
+    "comments" : [ ],
+    "documentation" : "",
+    "id" : "_2022x_2_8300238_1704479364816_954029_17822",
+    "name" : "Part Property Right_Wing",
+    "qualified_name" : "2.1 Wings Subsystem 1 Solution Domain::2 Subsystem Structure::Wings::Right_Wing",
+    "type" : "Part Property"
+  }, {
+    "comments" : [ ],
+    "documentation" : "",
+    "id" : "_2022x_2_8300238_1704479364816_19187_17823",
+    "name" : "Part Property Left_Aileron",
+    "qualified_name" : "2.1 Wings Subsystem 1 Solution Domain::2 Subsystem Structure::Wings::Left_Aileron",
+    "type" : "Part Property"
+  }, {
+    "comments" : [ ],
+    "documentation" : "",
+    "id" : "_2022x_2_8300238_1704479364817_408035_17824",
+    "name" : "Part Property Right_Aileron",
+    "qualified_name" : "2.1 Wings Subsystem 1 Solution Domain::2 Subsystem Structure::Wings::Right_Aileron",
+    "type" : "Part Property"
+  }, {
+    "comments" : [ ],
+    "documentation" : "",
+    "id" : "_2022x_2_8300238_1704479364818_819089_17825",
+    "name" : "Part Property left Wing",
+    "qualified_name" : "2.1 Wings Subsystem 1 Solution Domain::2 Subsystem Structure::Wings::left Wing",
+    "type" : "Part Property"
+  }, {
+    "comments" : [ ],
+    "documentation" : "",
+    "id" : "_2022x_2_8300238_1704479364818_422953_17826",
+    "name" : "Part Property right Wing",
+    "qualified_name" : "2.1 Wings Subsystem 1 Solution Domain::2 Subsystem Structure::Wings::right Wing",
+    "type" : "Part Property"
+  } ],
+  "use_cases" : [ ]
+}, {
+  "comments" : [ ],
+  "documentation" : "",
+  "id" : "_2022x_2_8300238_1704479364782_658229_17785",
+  "name" : "Block Left Aileron",
+  "qualified_name" : "2.1 Wings Subsystem 1 Solution Domain::2 Subsystem Structure::Left Aileron",
+  "type" : "Block",
+  "owned_attributes" : {
+    "material" : "",
+    "LeftAil_width" : "5.0",
+    "LeftAil_length" : "45"
+  },
+  "parts" : [ {
+    "comments" : [ ],
+    "documentation" : "",
+    "id" : "_2022x_2_8300238_1704479364828_313443_17871",
+    "name" : "Value Property LeftAil_length",
+    "qualified_name" : "2.1 Wings Subsystem 1 Solution Domain::2 Subsystem Structure::Left Aileron::LeftAil_length",
+    "type" : "Value Property"
+  }, {
+    "comments" : [ ],
+    "documentation" : "",
+    "id" : "_2022x_2_8300238_1704479364828_213873_17872",
+    "name" : "Value Property LeftAil_width",
+    "qualified_name" : "2.1 Wings Subsystem 1 Solution Domain::2 Subsystem Structure::Left Aileron::LeftAil_width",
+    "type" : "Value Property"
+  }, {
+    "comments" : [ ],
+    "documentation" : "",
+    "id" : "_2022x_2_8300238_1704915554911_97267_17818",
+    "name" : "Part Property material",
+    "qualified_name" : "2.1 Wings Subsystem 1 Solution Domain::2 Subsystem Structure::Left Aileron::material",
+    "type" : "Part Property"
+  } ],
+  "use_cases" : [ ]
+}, {
+  "comments" : [ ],
+  "documentation" : "",
+  "id" : "_2022x_2_8300238_1704479364782_998014_17786",
+  "name" : "Block Right Aileron",
+  "qualified_name" : "2.1 Wings Subsystem 1 Solution Domain::2 Subsystem Structure::Right Aileron",
+  "type" : "Block",
+  "owned_attributes" : {
+    "material" : "",
+    "Length" : "45 mm",
+    "Width" : "5 mm"
+  },
+  "parts" : [ {
+    "comments" : [ ],
+    "documentation" : "",
+    "id" : "_2022x_2_8300238_1704479364828_248607_17873",
+    "name" : "Value Property Length",
+    "qualified_name" : "2.1 Wings Subsystem 1 Solution Domain::2 Subsystem Structure::Right Aileron::Length",
+    "type" : "Value Property"
+  }, {
+    "comments" : [ ],
+    "documentation" : "",
+    "id" : "_2022x_2_8300238_1704479364828_731487_17874",
+    "name" : "Value Property Width",
+    "qualified_name" : "2.1 Wings Subsystem 1 Solution Domain::2 Subsystem Structure::Right Aileron::Width",
+    "type" : "Value Property"
+  }, {
+    "comments" : [ ],
+    "documentation" : "",
+    "id" : "_2022x_2_8300238_1704915560171_865206_17829",
+    "name" : "Part Property material",
+    "qualified_name" : "2.1 Wings Subsystem 1 Solution Domain::2 Subsystem Structure::Right Aileron::material",
+    "type" : "Part Property"
+  } ],
+  "use_cases" : [ ]
+}, {
+  "comments" : [ ],
+  "documentation" : "",
+  "id" : "_2022x_2_8300238_1704479364785_695056_17790",
+  "name" : "Block Right Wing",
+  "qualified_name" : "2.1 Wings Subsystem 1 Solution Domain::2 Subsystem Structure::Right Wing",
+  "type" : "Block",
+  "owned_attributes" : {
+    "material" : "",
+    "right Aileron" : ""
+  },
+  "parts" : [ {
+    "comments" : [ ],
+    "documentation" : "",
+    "id" : "_2022x_2_8300238_1704479364830_408698_17878",
+    "name" : "Part Property right Aileron",
+    "qualified_name" : "2.1 Wings Subsystem 1 Solution Domain::2 Subsystem Structure::Right Wing::right Aileron",
+    "type" : "Part Property"
+  }, {
+    "comments" : [ ],
+    "documentation" : "",
+    "id" : "_2022x_2_8300238_1704479364830_338867_17879",
+    "name" : "Part Property material",
+    "qualified_name" : "2.1 Wings Subsystem 1 Solution Domain::2 Subsystem Structure::Right Wing::material",
+    "type" : "Part Property"
+  } ],
+  "use_cases" : [ ]
+}, {
+  "comments" : [ ],
+  "documentation" : "",
+  "id" : "_2022x_2_8300238_1704479364784_784145_17788",
+  "name" : "Block Left Wing",
+  "qualified_name" : "2.1 Wings Subsystem 1 Solution Domain::2 Subsystem Structure::Left Wing",
+  "type" : "Block",
+  "owned_attributes" : {
+    "material" : "",
+    "left Aileron" : ""
+  },
+  "parts" : [ {
+    "comments" : [ ],
+    "documentation" : "",
+    "id" : "_2022x_2_8300238_1704479364829_157984_17875",
+    "name" : "Part Property left Aileron",
+    "qualified_name" : "2.1 Wings Subsystem 1 Solution Domain::2 Subsystem Structure::Left Wing::left Aileron",
+    "type" : "Part Property"
+  }, {
+    "comments" : [ ],
+    "documentation" : "",
+    "id" : "_2022x_2_8300238_1704479364829_549957_17876",
+    "name" : "Part Property material",
+    "qualified_name" : "2.1 Wings Subsystem 1 Solution Domain::2 Subsystem Structure::Left Wing::material",
+    "type" : "Part Property"
+  } ],
+  "use_cases" : [ ]
+}, {
+  "comments" : [ ],
+  "documentation" : "",
+  "id" : "_2022x_2_8300238_1704484003527_289505_18979",
+  "name" : "Block Vertical Stabilizer",
+  "qualified_name" : "2.1 Wings Subsystem 1 Solution Domain::1 Subsystem Requirements::Vertical Stabilizer",
+  "type" : "Block",
+  "owned_attributes" : {
+    "rudder" : ""
+  },
+  "parts" : [ {
+    "comments" : [ ],
+    "documentation" : "",
+    "id" : "_2022x_2_8300238_1704484213967_955392_19085",
+    "name" : "Part Property rudder",
+    "qualified_name" : "2.1 Wings Subsystem 1 Solution Domain::1 Subsystem Requirements::Vertical Stabilizer::rudder",
+    "type" : "Part Property"
+  } ],
+  "use_cases" : [ ]
+}, {
+  "comments" : [ ],
+  "documentation" : "",
+  "id" : "_2022x_2_8300238_1704484184502_274205_19031",
+  "name" : "Block SA Left Stabilizer",
+  "qualified_name" : "2.1 Wings Subsystem 1 Solution Domain::1 Subsystem Requirements::SA Left Stabilizer",
+  "type" : "Block",
+  "owned_attributes" : {
+    "material" : "",
+    "Left Stabilizer" : "400mm",
+    "left Elevator" : "",
+    "Left Elevator" : ""
+  },
+  "parts" : [ {
+    "comments" : [ ],
+    "documentation" : "",
+    "id" : "_2022x_2_8300238_1704484222251_105655_19137",
+    "name" : "Part Property left Elevator",
+    "qualified_name" : "2.1 Wings Subsystem 1 Solution Domain::1 Subsystem Requirements::SA Left Stabilizer::left Elevator",
+    "type" : "Part Property"
+  }, {
+    "comments" : [ ],
+    "documentation" : "",
+    "id" : "_2022x_2_8300238_1704484914636_604855_19332",
+    "name" : "Part Property Left Stabilizer",
+    "qualified_name" : "2.1 Wings Subsystem 1 Solution Domain::1 Subsystem Requirements::SA Left Stabilizer::Left Stabilizer",
+    "type" : "Part Property"
+  }, {
+    "comments" : [ ],
+    "documentation" : "",
+    "id" : "_2022x_2_8300238_1704484917916_331116_19339",
+    "name" : "Part Property Left Elevator",
+    "qualified_name" : "2.1 Wings Subsystem 1 Solution Domain::1 Subsystem Requirements::SA Left Stabilizer::Left Elevator",
+    "type" : "Part Property"
+  }, {
+    "comments" : [ ],
+    "documentation" : "",
+    "id" : "_2022x_2_8300238_1704486421879_839462_19391",
+    "name" : "Part Property",
+    "qualified_name" : "2.1 Wings Subsystem 1 Solution Domain::1 Subsystem Requirements::SA Left Stabilizer::",
+    "type" : "Part Property"
+  }, {
+    "comments" : [ ],
+    "documentation" : "",
+    "id" : "_2022x_2_8300238_1704915564316_765932_17836",
+    "name" : "Part Property material",
+    "qualified_name" : "2.1 Wings Subsystem 1 Solution Domain::1 Subsystem Requirements::SA Left Stabilizer::material",
+    "type" : "Part Property"
+  } ],
+  "use_cases" : [ ]
+}, {
+  "comments" : [ ],
+  "documentation" : "",
+  "id" : "_2022x_2_8300238_1704484213942_158839_19083",
+  "name" : "Block Rudder",
+  "qualified_name" : "2.1 Wings Subsystem 1 Solution Domain::1 Subsystem Requirements::Rudder",
+  "type" : "Block",
+  "owned_attributes" : { },
+  "parts" : [ ],
+  "use_cases" : [ ]
+}, {
+  "comments" : [ ],
+  "documentation" : "",
+  "id" : "_2022x_2_8300238_1704484222228_86915_19135",
+  "name" : "Block Left Elevator",
+  "qualified_name" : "2.1 Wings Subsystem 1 Solution Domain::1 Subsystem Requirements::Left Elevator",
+  "type" : "Block",
+  "owned_attributes" : {
+    "Ele_Length" : "100.0",
+    "material" : "",
+    "Length" : "50mm",
+    "Ele_Width" : "50.0"
+  },
+  "parts" : [ {
+    "comments" : [ ],
+    "documentation" : "",
+    "id" : "_2022x_2_8300238_1704915532931_80665_17806",
+    "name" : "Value Property Length",
+    "qualified_name" : "2.1 Wings Subsystem 1 Solution Domain::1 Subsystem Requirements::Left Elevator::Length",
+    "type" : "Value Property"
+  }, {
+    "comments" : [ ],
+    "documentation" : "",
+    "id" : "_2022x_2_8300238_1704915536942_587298_17812",
+    "name" : "Value Property Ele_Width",
+    "qualified_name" : "2.1 Wings Subsystem 1 Solution Domain::1 Subsystem Requirements::Left Elevator::Ele_Width",
+    "type" : "Value Property"
+  }, {
+    "comments" : [ ],
+    "documentation" : "",
+    "id" : "_2022x_2_8300238_1704915569820_357390_17845",
+    "name" : "Part Property material",
+    "qualified_name" : "2.1 Wings Subsystem 1 Solution Domain::1 Subsystem Requirements::Left Elevator::material",
+    "type" : "Part Property"
+  }, {
+    "comments" : [ ],
+    "documentation" : "",
+    "id" : "_2022x_2_8300238_1704921597527_689264_17766",
+    "name" : "Value Property Ele_Length",
+    "qualified_name" : "2.1 Wings Subsystem 1 Solution Domain::1 Subsystem Requirements::Left Elevator::Ele_Length",
+    "type" : "Value Property"
+  } ],
+  "use_cases" : [ ]
+}, {
+  "comments" : [ ],
+  "documentation" : "",
+  "id" : "_2022x_2_8300238_1704484912444_703621_19299",
+  "name" : "Block Length",
+  "qualified_name" : "2.1 Wings Subsystem 1 Solution Domain::1 Subsystem Requirements::Length",
+  "type" : "Block",
+  "owned_attributes" : { },
+  "parts" : [ ],
+  "use_cases" : [ ]
+}, {
+  "comments" : [ ],
+  "documentation" : "",
+  "id" : "_2022x_2_8300238_1704479364770_327044_17750",
+  "name" : "Block Fuselage",
+  "qualified_name" : "2.2 Fuselage Subsystem 2 Solution Domain::2 Subsystem Structure::Fuselage",
+  "type" : "Block",
+  "owned_attributes" : {
+    "material" : "",
+    "Length" : "2725",
+    "Body_thickness" : "4 mm",
+    "Height_from_Ground" : "125 mm",
+    "Outer_diameter" : "200"
+  },
+  "parts" : [ {
+    "comments" : [ ],
+    "documentation" : "",
+    "id" : "_2022x_2_8300238_1704479364818_449459_17827",
+    "name" : "Part Property material",
+    "qualified_name" : "2.2 Fuselage Subsystem 2 Solution Domain::2 Subsystem Structure::Fuselage::material",
+    "type" : "Part Property"
+  }, {
+    "comments" : [ ],
+    "documentation" : "",
+    "id" : "_2022x_2_8300238_1704479364819_178891_17828",
+    "name" : "Value Property Length",
+    "qualified_name" : "2.2 Fuselage Subsystem 2 Solution Domain::2 Subsystem Structure::Fuselage::Length",
+    "type" : "Value Property"
+  }, {
+    "comments" : [ ],
+    "documentation" : "",
+    "id" : "_2022x_2_8300238_1704479364819_656191_17829",
+    "name" : "Value Property Outer_diameter",
+    "qualified_name" : "2.2 Fuselage Subsystem 2 Solution Domain::2 Subsystem Structure::Fuselage::Outer_diameter",
+    "type" : "Value Property"
+  }, {
+    "comments" : [ ],
+    "documentation" : "",
+    "id" : "_2022x_2_8300238_1704479364819_493710_17830",
+    "name" : "Value Property Body_thickness",
+    "qualified_name" : "2.2 Fuselage Subsystem 2 Solution Domain::2 Subsystem Structure::Fuselage::Body_thickness",
+    "type" : "Value Property"
+  }, {
+    "comments" : [ ],
+    "documentation" : "",
+    "id" : "_2022x_2_8300238_1704479364819_750373_17831",
+    "name" : "Value Property Height_from_Ground",
+    "qualified_name" : "2.2 Fuselage Subsystem 2 Solution Domain::2 Subsystem Structure::Fuselage::Height_from_Ground",
+    "type" : "Value Property"
+  } ],
+  "use_cases" : [ ]
+}, {
+  "comments" : [ ],
+  "documentation" : "",
+  "id" : "_2022x_2_8300238_1704479364766_970918_17746",
+  "name" : "Block Istari One",
+  "qualified_name" : "Istari One",
+  "type" : "Block",
+  "owned_attributes" : {
+    "navigation System" : "",
+    "propulsion System" : "",
+    "airframe" : ""
+  },
+  "parts" : [ {
+    "comments" : [ ],
+    "documentation" : "",
+    "id" : "_2022x_2_8300238_1704479364808_180794_17808",
+    "name" : "Part Property airframe",
+    "qualified_name" : "Istari One::airframe",
+    "type" : "Part Property"
+  }, {
+    "comments" : [ ],
+    "documentation" : "",
+    "id" : "_2022x_2_8300238_1704479364811_303424_17809",
+    "name" : "Part Property propulsion System",
+    "qualified_name" : "Istari One::propulsion System",
+    "type" : "Part Property"
+  }, {
+    "comments" : [ ],
+    "documentation" : "",
+    "id" : "_2022x_2_8300238_1704479364812_714659_17810",
+    "name" : "Part Property navigation System",
+    "qualified_name" : "Istari One::navigation System",
+    "type" : "Part Property"
+  } ],
+  "use_cases" : [ ]
+}, {
+  "comments" : [ ],
+  "documentation" : "",
+  "id" : "_2022x_2_8300238_1704479364767_836764_17747",
+  "name" : "Block Physical Structure",
+  "qualified_name" : "Physical Structure",
+  "type" : "Block",
+  "owned_attributes" : {
+    "fuselage" : "",
+    "wings" : "",
+    "tail Section" : "",
+    "landing Gear" : ""
+  },
+  "parts" : [ {
+    "comments" : [ ],
+    "documentation" : "",
+    "id" : "_2022x_2_8300238_1704479364813_674002_17811",
+    "name" : "Part Property wings",
+    "qualified_name" : "Physical Structure::wings",
+    "type" : "Part Property"
+  }, {
+    "comments" : [ ],
+    "documentation" : "",
+    "id" : "_2022x_2_8300238_1704479364813_806951_17812",
+    "name" : "Part Property fuselage",
+    "qualified_name" : "Physical Structure::fuselage",
+    "type" : "Part Property"
+  }, {
+    "comments" : [ ],
+    "documentation" : "",
+    "id" : "_2022x_2_8300238_1704479364813_815574_17813",
+    "name" : "Part Property landing Gear",
+    "qualified_name" : "Physical Structure::landing Gear",
+    "type" : "Part Property"
+  }, {
+    "comments" : [ ],
+    "documentation" : "",
+    "id" : "_2022x_2_8300238_1704479364813_761703_17814",
+    "name" : "Part Property tail Section",
+    "qualified_name" : "Physical Structure::tail Section",
+    "type" : "Part Property"
+  } ],
+  "use_cases" : [ ]
+}, {
+  "comments" : [ ],
+  "documentation" : "",
+  "id" : "_2022x_2_8300238_1704479364772_152036_17753",
+  "name" : "Block Landing Gear",
+  "qualified_name" : "Landing Gear",
+  "type" : "Block",
+  "owned_attributes" : {
+    "material" : ""
+  },
+  "parts" : [ {
+    "comments" : [ ],
+    "documentation" : "",
+    "id" : "_2022x_2_8300238_1704479364820_857320_17834",
+    "name" : "Part Property material",
+    "qualified_name" : "Landing Gear::material",
+    "type" : "Part Property"
+  } ],
+  "use_cases" : [ ]
+}, {
+  "comments" : [ ],
+  "documentation" : "",
+  "id" : "_2022x_2_8300238_1704479364773_825457_17757",
+  "name" : "Block Propulsion System",
+  "qualified_name" : "Propulsion System",
+  "type" : "Block",
+  "owned_attributes" : {
+    "engine" : "",
+    "mounting - Engine" : ""
+  },
+  "parts" : [ {
+    "comments" : [ ],
+    "documentation" : "",
+    "id" : "_2022x_2_8300238_1704479364822_753743_17838",
+    "name" : "Part Property engine",
+    "qualified_name" : "Propulsion System::engine",
+    "type" : "Part Property"
+  }, {
+    "comments" : [ ],
+    "documentation" : "",
+    "id" : "_2022x_2_8300238_1704479364822_722156_17839",
+    "name" : "Part Property mounting - Engine",
+    "qualified_name" : "Propulsion System::mounting - Engine",
+    "type" : "Part Property"
+  } ],
+  "use_cases" : [ ]
+}, {
+  "comments" : [ ],
+  "documentation" : "",
+  "id" : "_2022x_2_8300238_1704479364773_604412_17759",
+  "name" : "Block Navigation System",
+  "qualified_name" : "Navigation System",
+  "type" : "Block",
+  "owned_attributes" : { },
+  "parts" : [ ],
+  "use_cases" : [ ]
+}, {
+  "comments" : [ ],
+  "documentation" : "",
+  "id" : "_2022x_2_8300238_1704479364775_928583_17762",
+  "name" : "Block Material",
+  "qualified_name" : "Material",
+  "type" : "Block",
+  "owned_attributes" : {
+    "MaterialType" : "",
+    "Weight" : ""
+  },
+  "parts" : [ {
+    "comments" : [ ],
+    "documentation" : "",
+    "id" : "_2022x_2_8300238_1704479364822_857119_17842",
+    "name" : "Value Property MaterialType",
+    "qualified_name" : "Material::MaterialType",
+    "type" : "Value Property"
+  }, {
+    "comments" : [ ],
+    "documentation" : "",
+    "id" : "_2022x_2_8300238_1704479364822_118326_17843",
+    "name" : "Value Property Weight",
+    "qualified_name" : "Material::Weight",
+    "type" : "Value Property"
+  } ],
+  "use_cases" : [ ]
+}, {
+  "comments" : [ ],
+  "documentation" : "",
+  "id" : "_2022x_2_8300238_1704479364777_472572_17767",
+  "name" : "Block Engine",
+  "qualified_name" : "Engine",
+  "type" : "Block",
+  "owned_attributes" : {
+    "qty" : "1"
+  },
+  "parts" : [ {
+    "comments" : [ ],
+    "documentation" : "",
+    "id" : "_2022x_2_8300238_1704479364824_633754_17848",
+    "name" : "Value Property qty",
+    "qualified_name" : "Engine::qty",
+    "type" : "Value Property"
+  } ],
+  "use_cases" : [ ]
+}, {
+  "comments" : [ ],
+  "documentation" : "",
+  "id" : "_2022x_2_8300238_1704479364777_571866_17769",
+  "name" : "Block Mounting - Engine",
+  "qualified_name" : "Mounting - Engine",
+  "type" : "Block",
+  "owned_attributes" : { },
+  "parts" : [ ],
+  "use_cases" : [ ]
+}, {
+  "comments" : [ ],
+  "documentation" : "",
+  "id" : "_2022x_2_8300238_1704479364778_105071_17771",
+  "name" : "Block",
+  "qualified_name" : "",
+  "type" : "Block",
+  "owned_attributes" : { },
+  "parts" : [ ],
+  "use_cases" : [ ]
+}, {
+  "comments" : [ ],
+  "documentation" : "",
+  "id" : "_2022x_2_8300238_1704479364772_910268_17755",
+  "name" : "Block Tail Section",
+  "qualified_name" : "2.3 Tail Section Subsystem 3 Solution Domain::Tail Section",
+  "type" : "Block",
+  "owned_attributes" : {
+    "vertical Stabilizer" : "",
+    "material" : "",
+    "left Stabilizer" : ""
+  },
+  "parts" : [ {
+    "comments" : [ ],
+    "documentation" : "",
+    "id" : "_2022x_2_8300238_1704479364821_268563_17836",
+    "name" : "Part Property material",
+    "qualified_name" : "2.3 Tail Section Subsystem 3 Solution Domain::Tail Section::material",
+    "type" : "Part Property"
+  }, {
+    "comments" : [ ],
+    "documentation" : "",
+    "id" : "_2022x_2_8300238_1704484003558_94695_18981",
+    "name" : "Part Property vertical Stabilizer",
+    "qualified_name" : "2.3 Tail Section Subsystem 3 Solution Domain::Tail Section::vertical Stabilizer",
+    "type" : "Part Property"
+  }, {
+    "comments" : [ ],
+    "documentation" : "",
+    "id" : "_2022x_2_8300238_1704484184526_385956_19033",
+    "name" : "Part Property left Stabilizer",
+    "qualified_name" : "2.3 Tail Section Subsystem 3 Solution Domain::Tail Section::left Stabilizer",
+    "type" : "Part Property"
+  } ],
+  "use_cases" : [ ]
+}, {
+  "comments" : [ ],
+  "documentation" : "",
+  "id" : "_18_0beta_903028d_1388650184175_40772_88956",
+  "name" : "Block DerivedUnit",
+  "qualified_name" : "QUDV::DerivedUnit",
+  "type" : "Block",
+  "owned_attributes" : {
+    "factor" : "",
+    "hasReducedFactors" : "true"
+  },
+  "parts" : [ {
+    "comments" : [ "If true, the UnitFactors specifying the product of powers of other measurement units that define the DerivedUnit cannot be simplified. If false, the DerivedUnit is non-reduced; some UnitFactors can be simplified. A non-reduced DerivedUnit can have as a general unit other DerivedUnits defined in terms of simplified UnitFactors, possibly in reduced form." ],
+    "documentation" : "If true, the UnitFactors specifying the product of powers of other measurement units that define the DerivedUnit cannot be simplified. If false, the DerivedUnit is non-reduced; some UnitFactors can be simplified. A non-reduced DerivedUnit can have as a general unit other DerivedUnits defined in terms of simplified UnitFactors, possibly in reduced form.",
+    "id" : "_18_0beta_903028d_1388650183340_919220_83440",
+    "name" : "Property hasReducedFactors",
+    "qualified_name" : "QUDV::DerivedUnit::hasReducedFactors",
+    "type" : "Property"
+  } ],
+  "use_cases" : [ ]
+}, {
+  "comments" : [ ],
+  "documentation" : "",
+  "id" : "_18_0beta_903028d_1388650202939_296687_188125",
+  "name" : "Block SystemOfQuantities",
+  "qualified_name" : "QUDV::SystemOfQuantities",
+  "type" : "Block",
+  "owned_attributes" : {
+    "symbol" : "",
+    "includedSystemOfQuantities" : "",
+    "name" : "",
+    "usedSystemOfQuantities" : "",
+    "baseQuantityKind" : "",
+    "description" : "",
+    "definitionURI" : "",
+    "dimension" : "",
+    "quantityKind" : ""
+  },
+  "parts" : [ {
+    "comments" : [ ],
+    "documentation" : "",
+    "id" : "_18_0beta_903028d_1388650197847_383886_164250",
+    "name" : "Property name",
+    "qualified_name" : "QUDV::SystemOfQuantities::name",
+    "type" : "Property"
+  }, {
+    "comments" : [ ],
+    "documentation" : "",
+    "id" : "_18_0beta_903028d_1388650188365_734127_108317",
+    "name" : "Property symbol",
+    "qualified_name" : "QUDV::SystemOfQuantities::symbol",
+    "type" : "Property"
+  }, {
+    "comments" : [ ],
+    "documentation" : "",
+    "id" : "_18_0beta_903028d_1388650178180_549573_52421",
+    "name" : "Property description",
+    "qualified_name" : "QUDV::SystemOfQuantities::description",
+    "type" : "Property"
+  }, {
+    "comments" : [ ],
+    "documentation" : "",
+    "id" : "_18_0beta_903028d_1388650180038_623214_62837",
+    "name" : "Property definitionURI",
+    "qualified_name" : "QUDV::SystemOfQuantities::definitionURI",
+    "type" : "Property"
+  } ],
+  "use_cases" : [ ]
+}, {
+  "comments" : [ ],
+  "documentation" : "",
+  "id" : "_18_0beta_903028d_1388650181741_282391_76498",
+  "name" : "Block SystemOfUnits",
+  "qualified_name" : "QUDV::SystemOfUnits",
+  "type" : "Block",
+  "owned_attributes" : {
+    "baseUnit" : "",
+    "symbol" : "",
+    "unit" : "",
+    "usedSystemOfUnits" : "",
+    "includedSystemOfUnits" : "",
+    "prefix" : "",
+    "name" : "",
+    "description" : "",
+    "systemOfQuantities" : "",
+    "definitionURI" : ""
+  },
+  "parts" : [ {
+    "comments" : [ ],
+    "documentation" : "",
+    "id" : "_18_0beta_903028d_1388650189189_825457_113125",
+    "name" : "Property name",
+    "qualified_name" : "QUDV::SystemOfUnits::name",
+    "type" : "Property"
+  }, {
+    "comments" : [ ],
+    "documentation" : "",
+    "id" : "_18_0beta_903028d_1388650188949_548247_111956",
+    "name" : "Property symbol",
+    "qualified_name" : "QUDV::SystemOfUnits::symbol",
+    "type" : "Property"
+  }, {
+    "comments" : [ ],
+    "documentation" : "",
+    "id" : "_18_0beta_903028d_1388650196705_792545_157305",
+    "name" : "Property description",
+    "qualified_name" : "QUDV::SystemOfUnits::description",
+    "type" : "Property"
+  }, {
+    "comments" : [ ],
+    "documentation" : "",
+    "id" : "_18_0beta_903028d_1388650191497_313458_125795",
+    "name" : "Property definitionURI",
+    "qualified_name" : "QUDV::SystemOfUnits::definitionURI",
+    "type" : "Property"
+  } ],
+  "use_cases" : [ ]
+}, {
+  "comments" : [ ],
+  "documentation" : "",
+  "id" : "_18_0beta_903028d_1388650181703_538227_76238",
+  "name" : "Block QuantityKindFactor",
+  "qualified_name" : "QUDV::QuantityKindFactor",
+  "type" : "Block",
+  "owned_attributes" : {
+    "quantityKind" : "",
+    "exponent" : ""
+  },
+  "parts" : [ {
+    "comments" : [ ],
+    "documentation" : "",
+    "id" : "_18_0beta_903028d_1388650200446_513611_179369",
+    "name" : "Value Property exponent",
+    "qualified_name" : "QUDV::QuantityKindFactor::exponent",
+    "type" : "Value Property"
+  } ],
+  "use_cases" : [ ]
+}, {
+  "comments" : [ ],
+  "documentation" : "",
+  "id" : "_18_0beta_903028d_1388650193761_111440_138934",
+  "name" : "Block Dimension",
+  "qualified_name" : "QUDV::Dimension",
+  "type" : "Block",
+  "owned_attributes" : {
+    "symbolicExpression" : "",
+    "factor" : ""
+  },
+  "parts" : [ {
+    "comments" : [ "Symbolic expression of the quantity dimension's product of powers, in terms of symbols of the kinds of quantity that represent the base kinds of quantity and their exponents. In tool implementations, the symbolicExpression may automatically derived from the associated factor set." ],
+    "documentation" : "Symbolic expression of the quantity dimension's product of powers, in terms of symbols of the kinds of quantity that represent the base kinds of quantity and their exponents. In tool implementations, the symbolicExpression may automatically derived from the associated factor set.",
+    "id" : "_18_0beta_903028d_1388650192452_955602_132414",
+    "name" : "Property symbolicExpression",
+    "qualified_name" : "QUDV::Dimension::symbolicExpression",
+    "type" : "Property"
+  } ],
+  "use_cases" : [ ]
+}, {
+  "comments" : [ ],
+  "documentation" : "",
+  "id" : "_18_0beta_903028d_1388650191655_194227_126501",
+  "name" : "Block DerivedQuantityKind",
+  "qualified_name" : "QUDV::DerivedQuantityKind",
+  "type" : "Block",
+  "owned_attributes" : {
+    "factor" : ""
+  },
+  "parts" : [ ],
+  "use_cases" : [ ]
+}, {
+  "comments" : [ ],
+  "documentation" : "",
+  "id" : "_18_0beta_903028d_1388650189753_661243_116137",
+  "name" : "Block SimpleQuantityKind",
+  "qualified_name" : "QUDV::SimpleQuantityKind",
+  "type" : "Block",
+  "owned_attributes" : { },
+  "parts" : [ ],
+  "use_cases" : [ ]
+}, {
+  "comments" : [ ],
+  "documentation" : "",
+  "id" : "_18_0beta_903028d_1388650200598_791402_180167",
+  "name" : "Block ConversionBasedUnit",
+  "qualified_name" : "QUDV::ConversionBasedUnit",
+  "type" : "Block",
+  "owned_attributes" : {
+    "referenceUnit" : "",
+    "isInvertible" : ""
+  },
+  "parts" : [ {
+    "comments" : [ ],
+    "documentation" : "",
+    "id" : "_18_0beta_903028d_1388650184673_234539_91799",
+    "name" : "Property isInvertible",
+    "qualified_name" : "QUDV::ConversionBasedUnit::isInvertible",
+    "type" : "Property"
+  } ],
+  "use_cases" : [ ]
+}, {
+  "comments" : [ ],
+  "documentation" : "",
+  "id" : "_18_0beta_903028d_1388650186682_93673_104719",
+  "name" : "Block AffineConversionUnit",
+  "qualified_name" : "QUDV::AffineConversionUnit",
+  "type" : "Block",
+  "owned_attributes" : {
+    "offset" : "",
+    "factor" : ""
+  },
+  "parts" : [ {
+    "comments" : [ ],
+    "documentation" : "",
+    "id" : "_18_0beta_903028d_1388650202788_491529_187497",
+    "name" : "Value Property factor",
+    "qualified_name" : "QUDV::AffineConversionUnit::factor",
+    "type" : "Value Property"
+  }, {
+    "comments" : [ ],
+    "documentation" : "",
+    "id" : "_18_0beta_903028d_1388650192802_32350_134717",
+    "name" : "Value Property offset",
+    "qualified_name" : "QUDV::AffineConversionUnit::offset",
+    "type" : "Value Property"
+  } ],
+  "use_cases" : [ ]
+}, {
+  "comments" : [ ],
+  "documentation" : "",
+  "id" : "_18_0beta_903028d_1388650179596_372621_59495",
+  "name" : "Block GeneralConversionUnit",
+  "qualified_name" : "QUDV::GeneralConversionUnit",
+  "type" : "Block",
+  "owned_attributes" : {
+    "expression" : "",
+    "expressionLanguageURI" : ""
+  },
+  "parts" : [ {
+    "comments" : [ ],
+    "documentation" : "",
+    "id" : "_18_0beta_903028d_1388650193880_304837_139649",
+    "name" : "Property expression",
+    "qualified_name" : "QUDV::GeneralConversionUnit::expression",
+    "type" : "Property"
+  }, {
+    "comments" : [ ],
+    "documentation" : "",
+    "id" : "_18_0beta_903028d_1388650186709_121529_104791",
+    "name" : "Property expressionLanguageURI",
+    "qualified_name" : "QUDV::GeneralConversionUnit::expressionLanguageURI",
+    "type" : "Property"
+  } ],
+  "use_cases" : [ ]
+}, {
+  "comments" : [ ],
+  "documentation" : "",
+  "id" : "_18_0beta_903028d_1388650200239_546827_178214",
+  "name" : "Block PrefixedUnit",
+  "qualified_name" : "QUDV::PrefixedUnit",
+  "type" : "Block",
+  "owned_attributes" : {
+    "prefix" : "",
+    "noQuantityKind" : ""
+  },
+  "parts" : [ ],
+  "use_cases" : [ ]
+}, {
+  "comments" : [ ],
+  "documentation" : "",
+  "id" : "_18_0beta_903028d_1388650202830_761178_187766",
+  "name" : "Block LinearConversionUnit",
+  "qualified_name" : "QUDV::LinearConversionUnit",
+  "type" : "Block",
+  "owned_attributes" : {
+    "factor" : ""
+  },
+  "parts" : [ {
+    "comments" : [ ],
+    "documentation" : "",
+    "id" : "_18_0beta_903028d_1388650197280_472144_161023",
+    "name" : "Value Property factor",
+    "qualified_name" : "QUDV::LinearConversionUnit::factor",
+    "type" : "Value Property"
+  } ],
+  "use_cases" : [ ]
+}, {
+  "comments" : [ ],
+  "documentation" : "",
+  "id" : "_18_0beta_903028d_1388650199656_481516_174796",
+  "name" : "Block UnitFactor",
+  "qualified_name" : "QUDV::UnitFactor",
+  "type" : "Block",
+  "owned_attributes" : {
+    "unit" : "",
+    "exponent" : ""
+  },
+  "parts" : [ {
+    "comments" : [ ],
+    "documentation" : "",
+    "id" : "_18_0beta_903028d_1388650194615_491410_143797",
+    "name" : "Value Property exponent",
+    "qualified_name" : "QUDV::UnitFactor::exponent",
+    "type" : "Value Property"
+  } ],
+  "use_cases" : [ ]
+}, {
+  "comments" : [ ],
+  "documentation" : "",
+  "id" : "_18_0beta_903028d_1388650200523_418423_179697",
+  "name" : "Block SimpleUnit",
+  "qualified_name" : "QUDV::SimpleUnit",
+  "type" : "Block",
+  "owned_attributes" : { },
+  "parts" : [ ],
+  "use_cases" : [ ]
+}, {
+  "comments" : [ ],
+  "documentation" : "",
+  "id" : "_18_0beta_903028d_1388650197609_674141_163402",
+  "name" : "Block Prefix",
+  "qualified_name" : "QUDV::Prefix",
+  "type" : "Block",
+  "owned_attributes" : {
+    "symbol" : "",
+    "name" : "",
+    "factor" : ""
+  },
+  "parts" : [ {
+    "comments" : [ ],
+    "documentation" : "",
+    "id" : "_18_0beta_903028d_1388650203448_3436_190694",
+    "name" : "Property name",
+    "qualified_name" : "QUDV::Prefix::name",
+    "type" : "Property"
+  }, {
+    "comments" : [ ],
+    "documentation" : "",
+    "id" : "_18_0beta_903028d_1388650185111_547719_94914",
+    "name" : "Property symbol",
+    "qualified_name" : "QUDV::Prefix::symbol",
+    "type" : "Property"
+  }, {
+    "comments" : [ ],
+    "documentation" : "",
+    "id" : "_18_0beta_903028d_1388650200404_538573_179236",
+    "name" : "Value Property factor",
+    "qualified_name" : "QUDV::Prefix::factor",
+    "type" : "Value Property"
+  } ],
+  "use_cases" : [ ]
+}, {
+  "comments" : [ ],
+  "documentation" : "",
+  "id" : "_18_0beta_903028d_1388650199626_730014_174682",
+  "name" : "Block DimensionFactor",
+  "qualified_name" : "QUDV::Deprecated::DimensionFactor",
+  "type" : "Block",
+  "owned_attributes" : {
+    "baseDimension" : "",
+    "exponent" : ""
+  },
+  "parts" : [ {
+    "comments" : [ ],
+    "documentation" : "",
+    "id" : "_18_0beta_903028d_1388650177281_779076_50494",
+    "name" : "Value Property exponent",
+    "qualified_name" : "QUDV::Deprecated::DimensionFactor::exponent",
+    "type" : "Value Property"
+  } ],
+  "use_cases" : [ ]
+}, {
+  "comments" : [ ],
+  "documentation" : "",
+  "id" : "_18_0beta_903028d_1388650176038_271996_46597",
+  "name" : "Block SpecializedQuantityKind",
+  "qualified_name" : "QUDV::Deprecated::SpecializedQuantityKind",
+  "type" : "Block",
+  "owned_attributes" : {
+    "general" : ""
+  },
+  "parts" : [ ],
+  "use_cases" : [ ]
+}, {
+  "comments" : [ ],
+  "documentation" : "",
+  "id" : "_18_0beta_903028d_1388650194715_86859_144462",
+  "name" : "Block Unit",
+  "qualified_name" : "QUDV::Unit",
+  "type" : "Block",
+  "owned_attributes" : {
+    "general" : "",
+    "dependsOnUnits" : "",
+    "isUnitForQuantityOfDimensionOne" : "false",
+    "primaryQuantityKind" : "",
+    "isUnitCountOfEntities" : "false",
+    "quantityKind" : ""
+  },
+  "parts" : [ {
+    "comments" : [ "If true, indicates that the measurement unit represents a number of entities (see ISO 80000-1, 3.10, Note 3)." ],
+    "documentation" : "If true, indicates that the measurement unit represents a number of entities (see ISO 80000-1, 3.10, Note 3).",
+    "id" : "_18_0beta_903028d_1388650181384_340150_73383",
+    "name" : "Property isUnitCountOfEntities",
+    "qualified_name" : "QUDV::Unit::isUnitCountOfEntities",
+    "type" : "Property"
+  }, {
+    "comments" : [ "If true, indicates that the corresponding QuantityKind has dimension one (see ISO 80000-1, 3.8)." ],
+    "documentation" : "If true, indicates that the corresponding QuantityKind has dimension one (see ISO 80000-1, 3.8).",
+    "id" : "_18_0beta_903028d_1388650185302_972566_96150",
+    "name" : "Property isUnitForQuantityOfDimensionOne",
+    "qualified_name" : "QUDV::Unit::isUnitForQuantityOfDimensionOne",
+    "type" : "Property"
+  } ],
+  "use_cases" : [ ]
+}, {
+  "comments" : [ ],
+  "documentation" : "",
+  "id" : "_18_0beta_903028d_1388650188435_580947_109062",
+  "name" : "Block QuantityKind",
+  "qualified_name" : "QUDV::QuantityKind",
+  "type" : "Block",
+  "owned_attributes" : {
+    "general" : "",
+    "isNumberOfEntities" : "false",
+    "dependsOnQuantityKinds" : "",
+    "isQuantityOfDimensionOne" : "false"
+  },
+  "parts" : [ {
+    "comments" : [ "If true, indicates that the QuantityKind represents a number of entities (see ISO 80000-1, 3.8, Note 4)." ],
+    "documentation" : "If true, indicates that the QuantityKind represents a number of entities (see ISO 80000-1, 3.8, Note 4).",
+    "id" : "_18_0beta_903028d_1388650184673_407862_91797",
+    "name" : "Property isNumberOfEntities",
+    "qualified_name" : "QUDV::QuantityKind::isNumberOfEntities",
+    "type" : "Property"
+  }, {
+    "comments" : [ "If true, indicates that the QuantityKind has dimension one (see ISO 80000-1, 3.8)." ],
+    "documentation" : "If true, indicates that the QuantityKind has dimension one (see ISO 80000-1, 3.8).",
+    "id" : "_18_0beta_903028d_1388650199191_153192_172341",
+    "name" : "Property isQuantityOfDimensionOne",
+    "qualified_name" : "QUDV::QuantityKind::isQuantityOfDimensionOne",
+    "type" : "Property"
+  } ],
+  "use_cases" : [ ]
+}, {
+  "comments" : [ ],
+  "documentation" : "",
+  "id" : "_16_5_1_12c903cb_1245419143265_313151_5613_180beta",
+  "name" : "Block ScaleValueDefinition",
+  "qualified_name" : "SysML::Libraries::UnitAndQuantityKind::Deprecated::ScaleValueDefinition",
+  "type" : "Block",
+  "owned_attributes" : {
+    "description" : "",
+    "value" : ""
+  },
+  "parts" : [ {
+    "comments" : [ ],
+    "documentation" : "",
+    "id" : "_16_5_1_12c903cb_1245419225484_965046_5658_180beta",
+    "name" : "Property description",
+    "qualified_name" : "SysML::Libraries::UnitAndQuantityKind::Deprecated::ScaleValueDefinition::description",
+    "type" : "Property"
+  }, {
+    "comments" : [ ],
+    "documentation" : "",
+    "id" : "_16_5_1_ff3038a_1245557780489_501420_4269_180beta",
+    "name" : "Property value",
+    "qualified_name" : "SysML::Libraries::UnitAndQuantityKind::Deprecated::ScaleValueDefinition::value",
+    "type" : "Property"
+  } ],
+  "use_cases" : [ ]
+}, {
+  "comments" : [ ],
+  "documentation" : "",
+  "id" : "_16_5_1_12c903cb_1245417628921_308934_5138_180beta",
+  "name" : "Block Scale",
+  "qualified_name" : "SysML::Libraries::UnitAndQuantityKind::Deprecated::Scale",
+  "type" : "Block",
+  "owned_attributes" : {
+    "unit" : "",
+    "valueDefinition" : ""
+  },
+  "parts" : [ ],
+  "use_cases" : [ ]
+}, {
+  "comments" : [ ],
+  "documentation" : "",
+  "id" : "_16_5_1_12c903cb_1245417288453_874257_4989_180beta",
+  "name" : "Block Unit",
+  "qualified_name" : "SysML::Libraries::UnitAndQuantityKind::Unit",
+  "type" : "Block",
+  "owned_attributes" : {
+    "symbol" : "",
+    "name" : "",
+    "description" : "",
+    "definitionURI" : "",
+    "quantityKind" : ""
+  },
+  "parts" : [ {
+    "comments" : [ ],
+    "documentation" : "",
+    "id" : "_16_5_1_12c903cb_1245417296734_424943_5008_180beta",
+    "name" : "Property name",
+    "qualified_name" : "SysML::Libraries::UnitAndQuantityKind::Unit::name",
+    "type" : "Property"
+  }, {
+    "comments" : [ ],
+    "documentation" : "",
+    "id" : "_16_5_1_12c903cb_1245417296734_435636_5009_180beta",
+    "name" : "Property symbol",
+    "qualified_name" : "SysML::Libraries::UnitAndQuantityKind::Unit::symbol",
+    "type" : "Property"
+  }, {
+    "comments" : [ ],
+    "documentation" : "",
+    "id" : "_16_5_1_12c903cb_1245417296734_47443_5010_180beta",
+    "name" : "Property description",
+    "qualified_name" : "SysML::Libraries::UnitAndQuantityKind::Unit::description",
+    "type" : "Property"
+  }, {
+    "comments" : [ ],
+    "documentation" : "",
+    "id" : "_16_5_1_12c903cb_1245417296734_69841_5011_180beta",
+    "name" : "Property definitionURI",
+    "qualified_name" : "SysML::Libraries::UnitAndQuantityKind::Unit::definitionURI",
+    "type" : "Property"
+  } ],
+  "use_cases" : [ ]
+}, {
+  "comments" : [ ],
+  "documentation" : "",
+  "id" : "_16_5_1_12c903cb_1245415169125_739263_4059_180beta",
+  "name" : "Block QuantityKind",
+  "qualified_name" : "SysML::Libraries::UnitAndQuantityKind::QuantityKind",
+  "type" : "Block",
+  "owned_attributes" : {
+    "symbol" : "",
+    "name" : "",
+    "scale" : "",
+    "description" : "",
+    "definitionURI" : ""
+  },
+  "parts" : [ {
+    "comments" : [ ],
+    "documentation" : "",
+    "id" : "_16_5_1_12c903cb_1245415215671_546126_4078_180beta",
+    "name" : "Property name",
+    "qualified_name" : "SysML::Libraries::UnitAndQuantityKind::QuantityKind::name",
+    "type" : "Property"
+  }, {
+    "comments" : [ ],
+    "documentation" : "",
+    "id" : "_16_5_1_12c903cb_1245415962031_639222_4454_180beta",
+    "name" : "Property symbol",
+    "qualified_name" : "SysML::Libraries::UnitAndQuantityKind::QuantityKind::symbol",
+    "type" : "Property"
+  }, {
+    "comments" : [ ],
+    "documentation" : "",
+    "id" : "_16_5_1_12c903cb_1245416032625_479084_4464_180beta",
+    "name" : "Property description",
+    "qualified_name" : "SysML::Libraries::UnitAndQuantityKind::QuantityKind::description",
+    "type" : "Property"
+  }, {
+    "comments" : [ ],
+    "documentation" : "",
+    "id" : "_16_5_1_12c903cb_1245416000578_813755_4459_180beta",
+    "name" : "Property definitionURI",
+    "qualified_name" : "SysML::Libraries::UnitAndQuantityKind::QuantityKind::definitionURI",
+    "type" : "Property"
+  } ],
+  "use_cases" : [ ]
+}, {
+  "comments" : [ ],
+  "documentation" : "",
+  "id" : "_18_3_903028d_1448291312268_435020_13832",
+  "name" : "Block CostRollUpPattern",
+  "qualified_name" : "MD Customization for SysML::analysis patterns::rollup patterns::CostRollUpPattern",
+  "type" : "Block",
+  "owned_attributes" : {
+    "cost" : "0.0",
+    "subCost" : "",
+    "sum" : "",
+    "totalCost" : ""
+  },
+  "parts" : [ {
+    "comments" : [ ],
+    "documentation" : "",
+    "id" : "_18_3_903028d_1448291312283_19134_13861",
+    "name" : "Part Property subCost",
+    "qualified_name" : "MD Customization for SysML::analysis patterns::rollup patterns::CostRollUpPattern::subCost",
+    "type" : "Part Property"
+  }, {
+    "comments" : [ ],
+    "documentation" : "",
+    "id" : "_18_3_903028d_1448291312283_448767_13862",
+    "name" : "Value Property cost",
+    "qualified_name" : "MD Customization for SysML::analysis patterns::rollup patterns::CostRollUpPattern::cost",
+    "type" : "Value Property"
+  }, {
+    "comments" : [ ],
+    "documentation" : "",
+    "id" : "_18_3_903028d_1448291312284_803169_13863",
+    "name" : "Value Property totalCost",
+    "qualified_name" : "MD Customization for SysML::analysis patterns::rollup patterns::CostRollUpPattern::totalCost",
+    "type" : "Value Property"
+  }, {
+    "comments" : [ ],
+    "documentation" : "",
+    "id" : "_18_3_903028d_1448291312284_267048_13864",
+    "name" : "Constraint Property sum",
+    "qualified_name" : "MD Customization for SysML::analysis patterns::rollup patterns::CostRollUpPattern::sum",
+    "type" : "Constraint Property"
+  } ],
+  "use_cases" : [ ]
+}, {
+  "comments" : [ ],
+  "documentation" : "",
+  "id" : "_18_3_903028d_1448291312269_537593_13833",
+  "name" : "Block MassRollUpPattern",
+  "qualified_name" : "MD Customization for SysML::analysis patterns::rollup patterns::MassRollUpPattern",
+  "type" : "Block",
+  "owned_attributes" : {
+    "mass" : "0.0",
+    "subMass" : "",
+    "sum" : "",
+    "totalMass" : ""
+  },
+  "parts" : [ {
+    "comments" : [ ],
+    "documentation" : "",
+    "id" : "_18_3_903028d_1448291312293_317152_13890",
+    "name" : "Part Property subMass",
+    "qualified_name" : "MD Customization for SysML::analysis patterns::rollup patterns::MassRollUpPattern::subMass",
+    "type" : "Part Property"
+  }, {
+    "comments" : [ ],
+    "documentation" : "",
+    "id" : "_18_3_903028d_1448291312293_396376_13891",
+    "name" : "Value Property mass",
+    "qualified_name" : "MD Customization for SysML::analysis patterns::rollup patterns::MassRollUpPattern::mass",
+    "type" : "Value Property"
+  }, {
+    "comments" : [ ],
+    "documentation" : "",
+    "id" : "_18_3_903028d_1448291312293_412848_13892",
+    "name" : "Value Property totalMass",
+    "qualified_name" : "MD Customization for SysML::analysis patterns::rollup patterns::MassRollUpPattern::totalMass",
+    "type" : "Value Property"
+  }, {
+    "comments" : [ ],
+    "documentation" : "",
+    "id" : "_18_3_903028d_1448291312294_599337_13893",
+    "name" : "Constraint Property sum",
+    "qualified_name" : "MD Customization for SysML::analysis patterns::rollup patterns::MassRollUpPattern::sum",
+    "type" : "Constraint Property"
+  } ],
+  "use_cases" : [ ]
+}, {
+  "comments" : [ ],
+  "documentation" : "",
+  "id" : "_18_3_903028d_1448291312270_739376_13834",
+  "name" : "Block PowerRollUpPattern",
+  "qualified_name" : "MD Customization for SysML::analysis patterns::rollup patterns::PowerRollUpPattern",
+  "type" : "Block",
+  "owned_attributes" : {
+    "subPower" : "",
+    "sum" : "",
+    "power" : "0.0",
+    "totalPower" : ""
+  },
+  "parts" : [ {
+    "comments" : [ ],
+    "documentation" : "",
+    "id" : "_18_3_903028d_1448291312303_656274_13919",
+    "name" : "Part Property subPower",
+    "qualified_name" : "MD Customization for SysML::analysis patterns::rollup patterns::PowerRollUpPattern::subPower",
+    "type" : "Part Property"
+  }, {
+    "comments" : [ ],
+    "documentation" : "",
+    "id" : "_18_3_903028d_1448291312303_325907_13920",
+    "name" : "Value Property power",
+    "qualified_name" : "MD Customization for SysML::analysis patterns::rollup patterns::PowerRollUpPattern::power",
+    "type" : "Value Property"
+  }, {
+    "comments" : [ ],
+    "documentation" : "",
+    "id" : "_18_3_903028d_1448291312303_455888_13921",
+    "name" : "Value Property totalPower",
+    "qualified_name" : "MD Customization for SysML::analysis patterns::rollup patterns::PowerRollUpPattern::totalPower",
+    "type" : "Value Property"
+  }, {
+    "comments" : [ ],
+    "documentation" : "",
+    "id" : "_18_3_903028d_1448291312303_664045_13922",
+    "name" : "Constraint Property sum",
+    "qualified_name" : "MD Customization for SysML::analysis patterns::rollup patterns::PowerRollUpPattern::sum",
+    "type" : "Constraint Property"
+  } ],
+  "use_cases" : [ ]
+}, {
+  "comments" : [ "<html>\n  <head>\n\t\t<style>\n\t\t\tp {padding:0px; margin:0px;}\n\t\t</style>\n\t</head>\n  <body>\n    <p>\nTo use the MonteCarloAnalysis «Block» «Analysis», please proceed with the following steps:\n\n    </p>\n\n    <ol>\n      <li>\nInherited from &ldquo;MonteCarloAnalysis&rdquo;: create an inherited block from the &ldquo;MonteCarloAnalysis&rdquo; block. We'll call it &quot;MCAnalysis&quot; block. Inherited value properties (4) will be assigned to the &quot;MCAnalysis&quot; block during the execution (real-time updated).\n\n      </li>\n      <li>\nCreate «BoundReference» property: a&#160;value property must be applied with «BoundReference» «Normal» stereotypes as the main simulation context of the analysis in the &quot;MCAnalysis&quot; block.\n\n      </li>\n      <li>\nCreate IBD: Internal Block Diagram must be created in the &quot;MCAnalysis&quot; block to bind the «BoundReference» with a value of the part property, and statistical value with a value property. Also &quot;OutOfSpec&quot; must be connected to a constraint properly.\n\n      </li>\n      <li>\nCreate a SimulationConfig: executionTarget to the &quot;MCAnalysis&quot; block, set numberOfRun (e.g. 5000), and other tags, e.g. resultLocation.\n\n      </li>\n      <li>\nSet&#160;Histogram and CSV Export: create a histogram and CSV Export, and drag into the SimulationConfig.\n\n      </li>\n    </ol>\n    <ul style=\"margin-left:10.0px;\">\n      <li>\n<b>OutOfSpec</b>: % of samples violating any of the attached constraints/requirements.\n\n      </li>\n      <li>\n<b>N</b>: statistical value, the number of observations/ data points from a Monte-Carlo simulation.\n\n      </li>\n      <li>\n<b>Mean</b>: statistical value, an average of&#160;observations/ data points from a Monte-Carlo simulation.\n\n      </li>\n      <li>\n<b>Deviation</b>: statistical value, a&#160;standard deviation of&#160;observations/ data points from a Monte-Carlo simulation.\n\n      </li>\n    </ul>\n</body>\n</html>" ],
+  "documentation" : "<html>\n  <head>\n\t\t<style>\n\t\t\tp {padding:0px; margin:0px;}\n\t\t</style>\n\t</head>\n  <body>\n    <p>\nTo use the MonteCarloAnalysis «Block» «Analysis», please proceed with the following steps:\n\n    </p>\n\n    <ol>\n      <li>\nInherited from &ldquo;MonteCarloAnalysis&rdquo;: create an inherited block from the &ldquo;MonteCarloAnalysis&rdquo; block. We'll call it &quot;MCAnalysis&quot; block. Inherited value properties (4) will be assigned to the &quot;MCAnalysis&quot; block during the execution (real-time updated).\n\n      </li>\n      <li>\nCreate «BoundReference» property: a&#160;value property must be applied with «BoundReference» «Normal» stereotypes as the main simulation context of the analysis in the &quot;MCAnalysis&quot; block.\n\n      </li>\n      <li>\nCreate IBD: Internal Block Diagram must be created in the &quot;MCAnalysis&quot; block to bind the «BoundReference» with a value of the part property, and statistical value with a value property. Also &quot;OutOfSpec&quot; must be connected to a constraint properly.\n\n      </li>\n      <li>\nCreate a SimulationConfig: executionTarget to the &quot;MCAnalysis&quot; block, set numberOfRun (e.g. 5000), and other tags, e.g. resultLocation.\n\n      </li>\n      <li>\nSet&#160;Histogram and CSV Export: create a histogram and CSV Export, and drag into the SimulationConfig.\n\n      </li>\n    </ol>\n    <ul style=\"margin-left:10.0px;\">\n      <li>\n<b>OutOfSpec</b>: % of samples violating any of the attached constraints/requirements.\n\n      </li>\n      <li>\n<b>N</b>: statistical value, the number of observations/ data points from a Monte-Carlo simulation.\n\n      </li>\n      <li>\n<b>Mean</b>: statistical value, an average of&#160;observations/ data points from a Monte-Carlo simulation.\n\n      </li>\n      <li>\n<b>Deviation</b>: statistical value, a&#160;standard deviation of&#160;observations/ data points from a Monte-Carlo simulation.\n\n      </li>\n    </ul>\n</body>\n</html>",
+  "id" : "_19_0beta_be00301_1509089448616_560737_12757",
+  "name" : "Block MonteCarloAnalysis",
+  "qualified_name" : "MD Customization for SysML::analysis patterns::MonteCarloAnalysis",
+  "type" : "Block",
+  "owned_attributes" : {
+    "Mean" : "",
+    "Deviation" : "",
+    "OutOfSpec" : "",
+    "N" : ""
+  },
+  "parts" : [ {
+    "comments" : [ ],
+    "documentation" : "",
+    "id" : "_19_0beta_be00301_1509089448619_868194_12758",
+    "name" : "Value Property OutOfSpec",
+    "qualified_name" : "MD Customization for SysML::analysis patterns::MonteCarloAnalysis::OutOfSpec",
+    "type" : "Value Property"
+  }, {
+    "comments" : [ ],
+    "documentation" : "",
+    "id" : "_19_0beta_be00301_1509089448619_169958_12759",
+    "name" : "Value Property N",
+    "qualified_name" : "MD Customization for SysML::analysis patterns::MonteCarloAnalysis::N",
+    "type" : "Value Property"
+  }, {
+    "comments" : [ ],
+    "documentation" : "",
+    "id" : "_19_0beta_be00301_1509089448619_383598_12760",
+    "name" : "Value Property Mean",
+    "qualified_name" : "MD Customization for SysML::analysis patterns::MonteCarloAnalysis::Mean",
+    "type" : "Value Property"
+  }, {
+    "comments" : [ ],
+    "documentation" : "",
+    "id" : "_19_0beta_be00301_1509089448619_830907_12761",
+    "name" : "Value Property Deviation",
+    "qualified_name" : "MD Customization for SysML::analysis patterns::MonteCarloAnalysis::Deviation",
+    "type" : "Value Property"
+  } ],
+  "use_cases" : [ ]
+}, {
+  "comments" : [ "<html>\n  <head>\n\t\t<style>\n\t\t\tp {padding:0px; margin:0px;}\n\t\t</style>\n\t</head>\n  <body>\n    <p>\nTo use the TradeStudy «Block» «Analysis», please proceed with the following steps:\n\n    </p>\n\n    <ol>\n      <li>\nInherited from &ldquo;TradeStudy&rdquo;: create an inherited block from the &ldquo;TradeStudy&rdquo; block. We'll call it &quot;TradeAnalysis&quot; block. Inherited value properties (4) will be assigned to the &ldquo;TradeAnalysis&rdquo; block during the execution (real-time updated).\n\n      </li>\n      <li>\nCreate part property: a part property must be created as the main simulation context of the trade study in the &quot;TradeAnalysis&quot; block.        \n<br>Create «objectiveFunction»: a constraint property which applied «objectiveFunction» should be created as a part of the &quot;TradeAnalysis&quot; block.\n\n      </li>\n      <li>\nCreate «alternatives»: reference properties which applied «alternatives» must be specified in the &quot;TradeAnalysis&quot; block.\n\n      </li>\n      <li>\nCreate IBD: Internal Block Diagram must be created in the &quot;TradeAnalysis&quot; block to bind &quot;score&quot; and «objectiveFunction». Also &quot;kind&quot; and &quot;source&quot; tags must be specified properly.\n\n      </li>\n      <li>\nCreate a SimulationConfig: set executionTarget to the &quot;TradeAnalysis&quot; block, and other tags, e.g. resultLocation, silent.\n\n      </li>\n    </ol>\n    <ul>\n      <li>\n<b>OutOfSpec</b>: % of samples violating any of the attached constraints/requirements.\n\n      </li>\n      <li>\n<b>N</b>: the number of configurations which have been evaluated.\n\n      </li>\n      <li>\n<b>score</b>: the winner value as of specified «objectiveFunction».\n\n      </li>\n      <li>\n<b>winner</b>: the winner configuration from specified «alternatives».\n\n      </li>\n    </ul>\n</body>\n</html>" ],
+  "documentation" : "<html>\n  <head>\n\t\t<style>\n\t\t\tp {padding:0px; margin:0px;}\n\t\t</style>\n\t</head>\n  <body>\n    <p>\nTo use the TradeStudy «Block» «Analysis», please proceed with the following steps:\n\n    </p>\n\n    <ol>\n      <li>\nInherited from &ldquo;TradeStudy&rdquo;: create an inherited block from the &ldquo;TradeStudy&rdquo; block. We'll call it &quot;TradeAnalysis&quot; block. Inherited value properties (4) will be assigned to the &ldquo;TradeAnalysis&rdquo; block during the execution (real-time updated).\n\n      </li>\n      <li>\nCreate part property: a part property must be created as the main simulation context of the trade study in the &quot;TradeAnalysis&quot; block.        \n<br>Create «objectiveFunction»: a constraint property which applied «objectiveFunction» should be created as a part of the &quot;TradeAnalysis&quot; block.\n\n      </li>\n      <li>\nCreate «alternatives»: reference properties which applied «alternatives» must be specified in the &quot;TradeAnalysis&quot; block.\n\n      </li>\n      <li>\nCreate IBD: Internal Block Diagram must be created in the &quot;TradeAnalysis&quot; block to bind &quot;score&quot; and «objectiveFunction». Also &quot;kind&quot; and &quot;source&quot; tags must be specified properly.\n\n      </li>\n      <li>\nCreate a SimulationConfig: set executionTarget to the &quot;TradeAnalysis&quot; block, and other tags, e.g. resultLocation, silent.\n\n      </li>\n    </ol>\n    <ul>\n      <li>\n<b>OutOfSpec</b>: % of samples violating any of the attached constraints/requirements.\n\n      </li>\n      <li>\n<b>N</b>: the number of configurations which have been evaluated.\n\n      </li>\n      <li>\n<b>score</b>: the winner value as of specified «objectiveFunction».\n\n      </li>\n      <li>\n<b>winner</b>: the winner configuration from specified «alternatives».\n\n      </li>\n    </ul>\n</body>\n</html>",
+  "id" : "_19_0_3_4240182_1566539608347_773700_13411",
+  "name" : "Block TradeStudy",
+  "qualified_name" : "MD Customization for SysML::analysis patterns::trade study::TradeStudy",
+  "type" : "Block",
+  "owned_attributes" : {
+    "score" : "",
+    "winner" : "",
+    "OutOfSpec" : "",
+    "N" : ""
+  },
+  "parts" : [ {
+    "comments" : [ ],
+    "documentation" : "",
+    "id" : "_19_0_3_4240182_1566539624022_234910_13413",
+    "name" : "Value Property OutOfSpec",
+    "qualified_name" : "MD Customization for SysML::analysis patterns::trade study::TradeStudy::OutOfSpec",
+    "type" : "Value Property"
+  }, {
+    "comments" : [ ],
+    "documentation" : "",
+    "id" : "_19_0_3_4240182_1566539636246_230753_13415",
+    "name" : "Value Property N",
+    "qualified_name" : "MD Customization for SysML::analysis patterns::trade study::TradeStudy::N",
+    "type" : "Value Property"
+  }, {
+    "comments" : [ ],
+    "documentation" : "",
+    "id" : "_19_0_3_4240182_1566539648324_543348_13417",
+    "name" : "Value Property score",
+    "qualified_name" : "MD Customization for SysML::analysis patterns::trade study::TradeStudy::score",
+    "type" : "Value Property"
+  }, {
+    "comments" : [ ],
+    "documentation" : "",
+    "id" : "_19_0_3_4240182_1566539657244_357511_13419",
+    "name" : "Value Property winner",
+    "qualified_name" : "MD Customization for SysML::analysis patterns::trade study::TradeStudy::winner",
+    "type" : "Value Property"
+  } ],
+  "use_cases" : [ ]
+} ]

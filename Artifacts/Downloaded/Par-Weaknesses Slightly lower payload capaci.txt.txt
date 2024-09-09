@@ -1,0 +1,1 @@
+Weaknesses: Slightly lower payload capacity compared to Alternative B.
