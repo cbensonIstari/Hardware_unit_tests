@@ -53,7 +53,8 @@ No errors found.
 - **Error**: 'utf-8' codec can't decode byte 0xab in position 66667: invalid start byte
 
 ## File: /workspaces/Hardware_unit_tests/Artifacts/Downloaded/Digital_One_CATIA_v5_CAD_IstariOne.zip/parameters.json
-No errors found.
+**Errors Found:**
+- **Unit mismatch** for `Stabilizer_Length`: `360.0in` should be converted to `mm`.
 
 ## File: /workspaces/Hardware_unit_tests/Artifacts/Downloaded/Digital_One_CATIA_v5_CAD_IstariOne.zip/parts.json
 **Errors Found:**
