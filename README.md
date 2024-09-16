@@ -7,7 +7,7 @@ Below is an overall assessment of the current status of automated 516C testing:
 ![516C Airworthiness](https://img.shields.io/badge/516C%20Airworthiness-Passing%2038%20|%20Concerns%209%20|%20Failed%203%20|%20N/A%205-yellow)
 
 
-![DoD 516C Unit Tests](https://img.shields.io/badge/DoD%20516C%20Unit%20Tests-Passing-green?logo=boeing)
+![DoD 516C Unit Tests](https://img.shields.io/badge/DoD%20516C%20Unit%20Tests-Passing-green?logo=ieee)
 
 
 
@@ -135,3 +135,4 @@ Each criterion is individually reviewed to give a clear, comprehensive understan
 | **20 Air Transportability and Mission/Test Equipment** | ![Air Transportability](https://img.shields.io/badge/Air%20Transportability-Passing-green) | Sep 2024       | Air transportability and test equipment criteria passed all operational checks.                 | Jason Adams        |
 | 20.1 Air Transportability and Airdrop                 | ![20.1](https://img.shields.io/badge/20.1%20Air%20Transportability-Passing-green) | Sep 2024       | Meets all requirements for air transportability and airdrop operations.                         | Jason Adams        |
 | 20.2 Mission/Test Equipment Operations and Installation| ![20.2](https://img.shields.io/badge/20.2%20Mission%20Test%20Equipment-Passing-green) | Sep 2024       | All mission and test equipment installations passed operational checks.                         | Jason Adams        |
+
