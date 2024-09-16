@@ -61,3 +61,13 @@
 
 <span style='color: green;'>**Test Passed**: The WING_LENGTH from CATIA matches the Wingspan from Cameo.</span>
 
+# Integration Test Log
+
+**Test Run Time**: 2024-09-09 14:19:06
+
+**Istari Artifact Link**: [https://dev.istari.app/file/30566b0c-4de2-4825-ac28-572bdf4ef39a/artifact/bf728430-f25b-4912-943d-c71fce0d2f1c](https://dev.istari.app/file/30566b0c-4de2-4825-ac28-572bdf4ef39a/artifact/bf728430-f25b-4912-943d-c71fce0d2f1c)
+
+## Test: Compare WING_LENGTH and Wingspan
+
+<span style='color: green;'>**Test Passed**: The WING_LENGTH from CATIA matches the Wingspan from Cameo.</span>
+
