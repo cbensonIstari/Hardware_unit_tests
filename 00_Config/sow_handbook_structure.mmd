@@ -1,0 +1,58 @@
+graph TD
+  A[SOW Handbook Structure]
+  A --> B[Scope]
+  A --> C[Applicable Documents]
+  A --> D[Requirements]
+  A --> E[Additional Sections]
+  
+  subgraph Scope
+    B1[Define project boundaries]
+    B2[Include background information if necessary]
+    B --> B1
+    B --> B2
+  end
+
+  subgraph Applicable Documents
+    C1[Include specific standards and references]
+    C2[Ensure tailoring of referenced documents]
+    C3[Minimize inclusion of non-essential references]
+    C --> C1
+    C --> C2
+    C --> C3
+  end
+
+  subgraph Requirements
+    D1[Specify tasks clearly]
+    D2[Avoid ambiguous terms]
+    D3[Include funding alignment information]
+    D4[Tailor references for minimum cost]
+    D --> D1
+    D --> D2
+    D --> D3
+    D --> D4
+  end
+
+  subgraph Additional Sections
+    E1[Add sections for program-specific needs]
+    E2[Include details like acronyms and definitions]
+    E --> E1
+    E --> E2
+  end
+
+  subgraph Workflow for SOW Preparation
+    F[Conduct Market Research]
+    G[Review Requirement Documents]
+    H[Prepare Bibliography]
+    I[Develop WBS]
+    J[Draft SOW]
+    K[Iterate and Finalize]
+    L[Submit SOW]
+    F --> G
+    G --> H
+    H --> I
+    I --> J
+    J --> K
+    K --> L
+  end
+
+  L --> A
