@@ -1,8 +1,8 @@
 {
   "Tool": {
     "Name": "Creo",
-"Class" : "Physical System Representation",    
-"Type": "CAD",
+    "Class" : "Physical System Representation",    
+    "Type": "CAD",
     "Vendor": "PTC",
     "Version": "9.0",
     "POC": {
