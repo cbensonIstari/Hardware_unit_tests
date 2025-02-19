@@ -5,13 +5,25 @@
     "Geometry": {
       "Imported Neutral Geometry": [
         ".step (ISO 10303, used for CAD data exchange between systems)",
-        ".iges (ANSI Y14.26M, used for older CAD model exchange formats)"
+        ".iges (ANSI Y14.26M, used for older CAD model exchange formats)",
+        ".usdz (Universal Scene Description, Pixar's OpenUSD for interoperability in digital twin environments)"
       ]
     },
-    "3D CAD Models": [
-      ".prt (Creo native part file, contains full parametric design)",
-      ".asm (Creo assembly file, links multiple part files together)"
-    ],
+    "3D CAD Models": {
+      "Proprietary Formats": [
+        ".prt (Creo Parametric, PTC)",
+        ".asm (Creo Assembly, PTC)",
+        ".sldprt (SolidWorks part, Dassault Systèmes)",
+        ".sldasm (SolidWorks assembly, Dassault Systèmes)",
+        ".catpart (CATIA part, Dassault Systèmes)",
+        ".catproduct (CATIA assembly, Dassault Systèmes)",
+        ".x_t (Parasolid, Siemens NX and Solid Edge)",
+        ".x_b (Binary Parasolid, Siemens NX and Solid Edge)",
+        ".3dm (Rhinoceros, McNeel)",
+        ".ipt (Autodesk Inventor part)",
+        ".iam (Autodesk Inventor assembly)"
+      ]
+    },
     "2D Drawings": [
       ".dwg (AutoCAD drawing, standard format for technical schematics)",
       ".dxf (Drawing Exchange Format, used for interoperability between CAD tools)"
