@@ -1,0 +1,29 @@
+{
+  "Loading_Input_Data": {
+    "Metadata": ["String-based metadata (e.g., project name, author, creation date)"],
+    "Configuration_Files": ["XML configuration files (e.g., model settings, material definitions)"],
+    "Geometry": {
+      "Imported Neutral Geometry": [
+        ".step (ISO 10303, used for CAD data exchange between systems)",
+        ".iges (ANSI Y14.26M, used for older CAD model exchange formats)"
+      ]
+    },
+    "3D CAD Models": [
+      ".prt (Creo native part file, contains full parametric design)",
+      ".asm (Creo assembly file, links multiple part files together)"
+    ],
+    "2D Drawings": [
+      ".dwg (AutoCAD drawing, standard format for technical schematics)",
+      ".dxf (Drawing Exchange Format, used for interoperability between CAD tools)"
+    ],
+    "Material Properties": [
+      "Material definitions (e.g., Aluminum 6061-T6, AISI 304 Stainless Steel, ABS Plastic)"
+    ],
+    "Bounding Box": [
+      "Defining spatial dimensions (e.g., Length: 250mm, Width: 150mm, Height: 75mm)"
+    ],
+    "Mass/Inertia Values": [
+      "Physical properties (e.g., Mass: 2.5 kg, Center of Gravity: [100, 50, 25] mm, Moment of Inertia: Ixx=5.4 kg·m²)"
+    ]
+  }
+}
