@@ -1,29 +1,88 @@
 {
-  "Loading_Input_Data": {
-    "Metadata": ["String-based metadata (e.g., project name, author, creation date)"],
-    "Configuration_Files": ["XML configuration files (e.g., model settings, material definitions)"],
-    "Geometry": {
-      "Imported Neutral Geometry": [
-        ".step (ISO 10303, used for CAD data exchange between systems)",
-        ".iges (ANSI Y14.26M, used for older CAD model exchange formats)"
+  "Extraction_Output_Data": {
+    "Proprietary CAD Files": [
+      ".prt (Creo Parametric, PTC)",
+      ".asm (Creo Assembly, PTC)",
+      ".sldprt (SolidWorks part, Dassault Systèmes)",
+      ".sldasm (SolidWorks assembly, Dassault Systèmes)",
+      ".catpart (CATIA part, Dassault Systèmes)",
+      ".catproduct (CATIA assembly, Dassault Systèmes)",
+      ".x_t (Parasolid, Siemens NX and Solid Edge)",
+      ".ipt (Autodesk Inventor part)",
+      ".iam (Autodesk Inventor assembly)"
+    ],
+    "Neutral Files": [
+      ".step (ISO 10303 format for interoperability between CAD software)",
+      ".iges (Legacy format for model exchange)",
+      ".stl (Stereolithography format for 3D printing)",
+      ".dwg (Drawing exchange format for schematics)",
+      ".dxf (2D vector format used in CAD/CAM)",
+      ".usdz (OpenUSD, Universal Scene Description for AR/VR and digital twins)"
+    ],
+    "Metadata": [
+      "Extracted string-based metadata (e.g., Author: John Doe, Project: Airframe Design V3, Created: 2024-02-19)"
+    ],
+    "Applicable_Standards": {
+      "Geometry_Exchange": [
+        "ISO 10303 (STEP, used for CAD model interoperability)",
+        "IGES ANSI Y14.26M (Used for CAD model exchange, though being phased out)",
+        "OpenUSD (Universal Scene Description, developed by Pixar, for 3D workflows in digital twins and AR/VR)"
+      ],
+      "CAD_Modeling": [
+        "ISO 16792 (Digital product definition data practices)",
+        "ASME Y14.41 (3D model annotations & digital product definition)"
+      ],
+      "Mass_Properties": [
+        "ASME Y14.5 (Geometric Dimensioning & Tolerancing)"
+      ],
+      "Material_Standards": [
+        "ASTM E1444 (Nondestructive testing for ferrous materials)",
+        "ISO 1043 (Plastics material coding system)",
+        "ISO 15608 (Metal classification for manufacturing)"
+      ],
+      "Bill_of_Materials": [
+        "ISO 8000 (Data quality for BOM management)",
+        "IPC-2578 (BOM data exchange standard for ECAD/MCAD)"
+      ],
+      "2D_Drawings": [
+        "ASME Y14.1 (Drawing sheet size and format)",
+        "ASME Y14.5 (GD&T for part features and tolerances)",
+        "ISO 128 (Technical drawing standards for mechanical design)"
+      ],
+      "3D_Viewing": [
+        "ISO 14739-1 (PRC format for 3D PDF visualization)",
+        "JT Open (ISO 14306, lightweight 3D model format)",
+        "OpenUSD (Pixar’s USD format for 3D model visualization and simulation)"
       ]
     },
-    "3D CAD Models": [
-      ".prt (Creo native part file, contains full parametric design)",
-      ".asm (Creo assembly file, links multiple part files together)"
-    ],
-    "2D Drawings": [
-      ".dwg (AutoCAD drawing, standard format for technical schematics)",
-      ".dxf (Drawing Exchange Format, used for interoperability between CAD tools)"
-    ],
-    "Material Properties": [
-      "Material definitions (e.g., Aluminum 6061-T6, AISI 304 Stainless Steel, ABS Plastic)"
-    ],
-    "Bounding Box": [
-      "Defining spatial dimensions (e.g., Length: 250mm, Width: 150mm, Height: 75mm)"
-    ],
-    "Mass/Inertia Values": [
-      "Physical properties (e.g., Mass: 2.5 kg, Center of Gravity: [100, 50, 25] mm, Moment of Inertia: Ixx=5.4 kg·m²)"
-    ]
+    "Critical_Data_Fields": {
+      "Mass_Properties": {
+        "Bounding_Box": [
+          "Spatial dimensions (e.g., Length: 250mm, Width: 150mm, Height: 75mm)"
+        ],
+        "Density": [
+          "Material-specific density (e.g., Aluminum 6061-T6: 2.70 g/cm³, Titanium Grade 5: 4.43 g/cm³)"
+        ],
+        "Volume": [
+          "Computed volume (e.g., 3,500 cm³ for a solid part)"
+        ],
+        "Surface_Area": [
+          "Total external area of the part (e.g., 2,450 mm² for a machined bracket)"
+        ],
+        "Mass": [
+          "Weight of the object (e.g., 2.5 kg for a steel bracket)"
+        ]
+      },
+      "Material_Properties": [
+        "Extracted material assignments (e.g., Steel: AISI 4140, Aluminum: 7075-T6, Plastic: PEEK)"
+      ],
+      "Bill_of_Materials": [
+        "Detailed part listings (e.g., Item 1: Wing Rib, Qty: 4, Material: 7075 Aluminum)"
+      ],
+      "3D_Rendering": [
+        "OBJ format for visualization (e.g., `.obj` file can be imported into rendering tools like Blender)",
+        "USDZ format (e.g., `.usdz` for Augmented Reality and Digital Twin applications)"
+      ]
+    }
   }
 }
