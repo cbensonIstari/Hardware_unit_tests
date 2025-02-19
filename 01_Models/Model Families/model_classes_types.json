@@ -1,0 +1,36 @@
+{
+  "Tools": {
+    "Physical System Representation": {
+      "CAD": [],
+      "ECAD": [],
+      "PLM": []
+    },
+    "Simulations": {
+      "Low-Fidelity Simulations": [],
+      "CFD": [],
+      "FEA": [],
+      "EM": [],
+      "Dynamic": [],
+      "Mission Models": [],
+      "Simulation Managers": []
+    },
+    "Model-Based System Engineering": {
+      "Shared Architecture": [],
+      "Architecture Tools": [],
+      "Requirements Tools": []
+    },
+    "Computer Science and Software Engineering": {
+      "Integrated Development Environment": [],
+      "Version Control Systems": [],
+      "Testing Frameworks": []
+    },
+    "Productivity Tools and Digital Engineering": {
+      "Email and Communications": [],
+      "Word Processing": [],
+      "Presentations": [],
+      "Spreadsheets": [],
+      "Task Management": [],
+      "Shared Drives and Cloud Storage": []
+    }
+  }
+}
