@@ -63,7 +63,7 @@ The table below summarizes the 23 unit test results conducted during the System 
 
 ## SRR Unit Tests Overview
 
-The table below summarizes the 47 unit test results conducted during the System Requirements Review (SRR) for hardware validation in the **PEO ISR/SOF** program office.
+The table below summarizes the 47 unit test results conducted during the System Requirements Review (SRR) for hardware validation.
 
 | Test Status                                                                                 | Unit Test Name                                   | Last Run        | Description |
 |---------------------------------------------------------------------------------------------|--------------------------------------------------|-----------------|-------------|
